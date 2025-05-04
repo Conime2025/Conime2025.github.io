@@ -975,11 +975,6 @@ input[type="checkbox"]:checked:focus {
   color: rgb(38 38 38 / var(--tw-text-opacity, 1));
 }
 
-.text-neutral-900 {
-  --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity, 1));
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1071,11 +1066,6 @@ input[type="checkbox"]:checked:focus {
 
 .dark\:bg-neutral-950\/0:is(.dark *) {
   background-color: rgb(10 10 10 / 0);
-}
-
-.dark\:text-neutral-300:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 212 / var(--tw-text-opacity, 1));
 }
 
 .dark\:text-neutral-400:is(.dark *) {
