@@ -90,12 +90,12 @@
 
   </head>
   <body
-    class="font-noto font-normal w-full min-h-screen bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 overflow-y-scroll overflow-style-y transition duration-300 ease-in-out"
+    class="font-noto font-normal w-full min-h-full bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 overflow-y-scroll overflow-style-y transition duration-300 ease-in-out"
   >
     <header
       class="w-full z-[1000] fixed left-0 top-0 right-0 bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 transition duration-300 ease-in-out px-32 py-4 flex flex-row justify-between items-center"
     >
-      <a href="http://localhost:1313/" class="flex items-center">
+      <a href="/" class="flex items-center">
   <svg
     class="w-auto h-8 sm:hidden"
     viewBox="0 0 336 336"
@@ -233,7 +233,7 @@
 
     </header>
     <div
-      class="z-50 w-fit h-screen fixed left-0 top-0 right-0 px-4 py-6 flex flex-col justify-center items-center"
+      class="z-50 w-fit h-screen bg-white dark:bg-black fixed left-0 top-0 right-0 px-4 py-6 flex flex-col justify-center items-center"
     >
       
   <nav >
@@ -349,21 +349,23 @@
 
     </div>
     <main
-      class="mx-32 mt-20 p-6 overflow-hidden min-h-screen rounded-3xl transition duration-300 ease-in-out"
+      class="mx-32 mt-20 p-6 h-full rounded-3xl transition duration-300 ease-in-out"
     >
       
-<h1>Privacy Policy</h1>
 
-<article class="flex gap-4 p-4 border rounded-md shadow-sm">
+<div class="w-full absolute left-0 flex">
   
   
   <img
     src="/images/default.webp"
     alt="Privacy Policy"
-    class="h-64 w-full rounded-md object-cover"
+    class="h-96 w-full rounded-md object-cover"
   />
   
-
+</div>
+<div
+  class="flex flex-col relative bg-white dark:bg-neutral-950 translate-y-64 h-full gap-4 p-4 rounded-md shadow-sm"
+>
   
   <div>
     <h2 class="text-xl font-bold">Privacy Policy</h2>
@@ -376,20 +378,20 @@
 
     
     
-
-    
-    
   </div>
-</article>
 
-<p><p><strong>CoNime Privacy Policy</strong></p>
+  <div class="flex flex-col">
+    <p class="h-full"><p><strong>CoNime Privacy Policy</strong></p>
 <p>Your privacy is important to us. <span class="font-bold text-conime-600">CoNime </span>
  does not collect any personal data without your permission. If you contact us via a form, your information is only used for communication purposes.</p>
 <p>This website displays third-party advertisements, including Google AdSense, which may use cookies to serve relevant ads. You can disable cookies in your browser settings.</p>
 <p>By using this site, you agree to this privacy policy.</p>
 </p>
+  </div>
+  
 
- 
+</div>
+
     </main>
     <footer
       class="flex flex-col p-4 text-sm gap-2 relative bottom-0 items-center justify-center"
