@@ -91,10 +91,10 @@
 
   </head>
   <body
-    class="font-noto font-normal w-full min-h-screen bg-neutral-50 dark:bg-black text-neutral-800 dark:text-neutral-400 overflow-y-scroll overflow-style-y transition duration-300 ease-in-out"
+    class="font-noto font-normal w-full min-h-screen bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 overflow-y-scroll overflow-style-y transition duration-300 ease-in-out"
   >
     <header
-      class="w-full fixed left-0 top-0 right-0 bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 transition duration-300 ease-in-out px-32 py-4 flex flex-row justify-between items-center"
+      class="w-full z-[1000] fixed left-0 top-0 right-0 bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 transition duration-300 ease-in-out px-32 py-4 flex flex-row justify-between items-center"
     >
       <a href="http://localhost:1313/" class="flex items-center">
   <svg
@@ -325,6 +325,19 @@
     </a>
     </li>
     <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition-all group-duration-400 group-ease-in-out">
+      
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.75 2.44995C11.44 1.85995 12.57 1.85995 13.27 2.44995L14.85 3.81005C15.15 4.07005 15.71 4.28002 16.11 4.28002H17.81C18.87 4.28002 19.74 5.14996 19.74 6.20996V7.91003C19.74 8.30003 19.95 8.87004 20.21 9.17004L21.57 10.75C22.16 11.44 22.16 12.57 21.57 13.27L20.21 14.85C19.95 15.15 19.74 15.71 19.74 16.11V17.8101C19.74 18.8701 18.87 19.74 17.81 19.74H16.11C15.72 19.74 15.15 19.95 14.85 20.21L13.27 21.5699C12.58 22.1599 11.45 22.1599 10.75 21.5699L9.17002 20.21C8.87002 19.95 8.31001 19.74 7.91001 19.74H6.18C5.12 19.74 4.25 18.8701 4.25 17.8101V16.1C4.25 15.71 4.04001 15.15 3.79001 14.85L2.44 13.26C1.86 12.57 1.86 11.45 2.44 10.76L3.79001 9.17004C4.04001 8.87004 4.25 8.31004 4.25 7.92004V6.20996C4.25 5.14996 5.12 4.28002 6.18 4.28002H7.91001C8.30001 4.28002 8.87002 4.07005 9.17002 3.81005L10.75 2.44995Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.89001 14.82L11.34 15.94C11.53 16.13 11.95 16.22 12.23 16.22H14C14.56 16.22 15.17 15.8 15.31 15.24L16.43 11.82C16.66 11.17 16.24 10.6 15.54 10.6H13.67C13.39 10.6 13.16 10.3701 13.2 10.0401L13.43 8.54008C13.52 8.12008 13.24 7.65005 12.82 7.51005C12.45 7.37005 11.98 7.56 11.79 7.84L9.87 10.69" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M7.5 14.8199V10.24C7.5 9.57999 7.78 9.34998 8.44 9.34998H8.91C9.56 9.34998 9.85001 9.57999 9.85001 10.24V14.8199C9.85001 15.4699 9.57 15.71 8.91 15.71H8.44C7.78 15.71 7.5 15.4799 7.5 14.8199Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 
+
+      
+     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-white dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition-all duration-400 ease-in-out shadow rounded-lg hidden group-hover:flex">Suggested Articles</span> 
+    </a>
+    </li>
+    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
       <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition-all group-duration-400 group-ease-in-out" href="/tags/">
       
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -343,52 +356,205 @@
 
     </div>
     <main
-      class="mx-32 mt-20 min-h-screen rounded-3xl bg-white dark:bg-neutral-950 transition duration-300 ease-in-out"
+      class="mx-32 mt-20 p-6 overflow-hidden min-h-screen rounded-3xl transition duration-300 ease-in-out"
     >
       
-  <p>Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
+<div class="w-full h-[440px] py-4 mb-8 relative flex">
+  <div class="w-1/2 flex flex-col gap-1">
+    <a class="text-base rounded text-conime-600">Anime</a>
+    <h1 class="text-3xl font-bold">
+      20+ Anime Horor Terbaik dengan Unsur Gore yang Mengerikan
+    </h1>
+    <p class="text-neutral-600 dark:text-neutral-700">
+      Berikut adalah beberapa rekomendasi anime horor terbaik yang memiliki
+      unsur gore mengerikan. Berani untuk menontonnya?
+    </p>
+    <div class="h-full flex flex-col gap-2">
+      <div
+        class="p-1 relative flex flex-row gap-2 bg-white dark:bg-neutral-950 rounded-xl shadow-2xl shadow-neutral-900/50 w-fit h-1/2"
+      >
+        <div class="w-[100px] h-full rounded-xl bg-cover overflow-hidden">
+          <img
+            src="/posts/anime/deku.jpg"
+            class="w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+        <div class="px-1 h-full flex flex-col justify-center items-start">
+          <a class="text-base rounded text-conime-600">Anime</a>
+          <h4 class="text-base">
+            20+ Anime Horor Terbaik dengan Unsur Gore yang Mengerikan
+          </h4>
+          <p class="text-xs text-neutral-600 dark:text-neutral-700">
+            Mon, 12 Feb 2025
+          </p>
+        </div>
+      </div>
+      <div
+        class="p-1 relative flex flex-row gap-2 bg-white dark:bg-neutral-950 rounded-xl shadow-2xl shadow-neutral-900/50 w-fit h-1/2"
+      >
+        <div class="w-[100px] h-full rounded-xl bg-cover overflow-hidden">
+          <img
+            src="/posts/anime/deku.jpg"
+            class="w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+        <div class="px-1 h-full flex flex-col justify-center items-start">
+          <a class="text-base rounded text-conime-600">Anime</a>
+          <h4 class="text-base">
+            20+ Anime Horor Terbaik dengan Unsur Gore yang Mengerikan
+          </h4>
+          <p class="text-xs text-neutral-600 dark:text-neutral-700">
+            Mon, 12 Feb 2025
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-1/2 flex justify-center items-center">
+    <div
+      class="p-2 absolute right-14 -rotate-[10deg] top-24 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit"
+    >
+      <div class="w-[440] h-48 rounded-xl bg-cover overflow-hidden">
+        <img
+          src="/posts/anime/deku.jpg"
+          class="w-full h-full object-cover"
+          alt=""
+        />
+      </div>
+      <div
+        class="pt-4 pb-2 px-2 flex flex-col gap-8 justify-between items-start"
+      >
+        <h4 class="text-xl h-16">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut
+        </h4>
+        <p class="text-xs text-neutral-600 dark:text-neutral-700">
+          Mon, 12 Feb 2025
+        </p>
+      </div>
+    </div>
+    <div
+      class="p-2 absolute right-0 top-8 rotate-6 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit"
+    >
+      <div class="w-[440] h-48 rounded-xl bg-cover overflow-hidden">
+        <img
+          src="/posts/anime/deku.jpg"
+          class="w-full h-full object-cover"
+          alt=""
+        />
+      </div>
+      <div
+        class="pt-4 pb-2 px-2 flex flex-col gap-8 justify-between items-start"
+      >
+        <h4 class="text-xl h-16">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut
+        </h4>
+        <p class="text-xs text-neutral-600 dark:text-neutral-700">
+          Mon, 12 Feb 2025
+        </p>
+      </div>
+    </div>
+    <div
+      class="p-2 relative top-1/2 -translate-y-1/2 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit"
+    >
+      <div class="w-[440] h-48 rounded-xl bg-cover overflow-hidden">
+        <img
+          src="/posts/anime/deku.jpg"
+          class="w-full h-full object-cover"
+          alt=""
+        />
+      </div>
+      <div
+        class="pt-4 pb-2 px-2 flex flex-col gap-8 justify-between items-start"
+      >
+        <h4 class="text-xl h-16">
+          20+ Anime Horor Terbaik dengan Unsur Gore yang Mengerikan
+        </h4>
+        <p class="text-xs text-neutral-600 dark:text-neutral-700">
+          Mon, 12 Feb 2025
+        </p>
+      </div>
+    </div>
+    <div
+      class="absolute bottom-14 right-12 flex gap-2 justify-center items-center"
+    >
+      <div
+        class="p-2 flex justify-center w-fit h-fit rounded-full items-center text-neutral-400 bg-black dark:text-neutral-600 dark:bg-neutral-950"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 19.9201L8.47997 13.4001C7.70997 12.6301 7.70997 11.3701 8.47997 10.6001L15 4.08008"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        class="p-2 flex rotate-180 justify-center w-fit h-fit rounded-full items-center text-neutral-400 bg-black dark:text-neutral-600 dark:bg-neutral-950"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 19.9201L8.47997 13.4001C7.70997 12.6301 7.70997 11.3701 8.47997 10.6001L15 4.08008"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+<p>Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
 pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
 excepteur excepteur pariatur nostrud qui irure ullamco.</p>
-
-  
-    <h2><a href="/posts/anime/">Anime</a></h2>
-    Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum.
-  
-    <h2><a href="/posts/post-2/">Post 2</a></h2>
-    Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.
-Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia.
-  
-    <h2><a href="/posts/post-1/">Post 1</a></h2>
-    Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.
-Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea.
-  
-    <h2><a href="/about-us/">About Us</a></h2>
-    About CoNime
+ 
+<h2><a href="/posts/anime/">Anime</a></h2>
+Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. 
+<h2><a href="/posts/post-2/">Post 2</a></h2>
+Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.
+Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. 
+<h2><a href="/posts/post-1/">Post 1</a></h2>
+Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.
+Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. 
+<h2><a href="/about-us/">About Us</a></h2>
+About CoNime
 CoNime is an online news portal that delivers the latest updates on the world of anime and comics, especially for Indonesian readers. We are committed to providing up-to-date news, episode reviews, anime and manga recommendations, and other engaging content for fans.
 We are not an official website of any publisher or anime studio. All content is for informational purposes and aims to enrich the fan community.
-Our team consists of passionate writers and editors who love anime and comics.
-  
-    <h2><a href="/contact/">Contact</a></h2>
-    Silakan hubungi kami melalui email: info@example.org atau isi formulir di bawah ini.
-  
-    <h2><a href="/disclaimer/">Disclaimer</a></h2>
-    CoNime Disclaimer
+Our team consists of passionate writers and editors who love anime and comics. 
+<h2><a href="/contact/">Contact</a></h2>
+Silakan hubungi kami melalui email: info@example.org atau isi formulir di bawah ini. 
+<h2><a href="/disclaimer/">Disclaimer</a></h2>
+CoNime Disclaimer
 CoNime is an informational portal covering anime and comics. We are not affiliated with any official content owners or trademarks mentioned. All images, videos, and excerpts are copyrights of their respective owners.
-Any leaks, predictions, or fan-made content are for entertainment purposes only and are not official references. We strive for accuracy but cannot guarantee all information is completely correct.
-  
-    <h2><a href="/privacy-policy/">Privacy Policy</a></h2>
-    CoNime Privacy Policy
+Any leaks, predictions, or fan-made content are for entertainment purposes only and are not official references. We strive for accuracy but cannot guarantee all information is completely correct. 
+<h2><a href="/privacy-policy/">Privacy Policy</a></h2>
+CoNime Privacy Policy
 Your privacy is important to us. CoNime does not collect any personal data without your permission. If you contact us via a form, your information is only used for communication purposes.
 This website displays third-party advertisements, including Google AdSense, which may use cookies to serve relevant ads. You can disable cookies in your browser settings.
-By using this site, you agree to this privacy policy.
-  
-    <h2><a href="/terms-of-service/">Terms of Service</a></h2>
-    CoNime Terms of Service
+By using this site, you agree to this privacy policy. 
+<h2><a href="/terms-of-service/">Terms of Service</a></h2>
+CoNime Terms of Service
 By accessing CoNime , you agree to use the content responsibly and not for any illegal or harmful purposes.
 Copying or redistributing content from this site without permission is prohibited. We reserve the right to modify or terminate any part of the service without prior notice.
-If you do not agree with these terms, please do not use our website.
-  
-
+If you do not agree with these terms, please do not use our website.  
     </main>
     <footer
       class="flex flex-col p-4 text-sm gap-2 relative bottom-0 items-center justify-center"
