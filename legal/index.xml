@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Legals on CoNime</title>
+    <link>http://localhost:1313/legal/</link>
+    <description>Recent content in Legals on CoNime</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about-us/</guid>
+      <description>About CoNime&#xA;CoNime is an online news portal that delivers the latest updates on the world of anime and comics, especially for Indonesian readers. We are committed to providing up-to-date news, episode reviews, anime and manga recommendations, and other engaging content for fans.&#xA;We are not an official website of any publisher or anime studio. All content is for informational purposes and aims to enrich the fan community.&#xA;Our team consists of passionate writers and editors who love anime and comics.</description>
+    </item>
+    <item>
+      <title>Disclaimer</title>
+      <link>http://localhost:1313/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/disclaimer/</guid>
+      <description>CoNime Disclaimer&#xA;CoNime is an informational portal covering anime and comics. We are not affiliated with any official content owners or trademarks mentioned. All images, videos, and excerpts are copyrights of their respective owners.&#xA;Any leaks, predictions, or fan-made content are for entertainment purposes only and are not official references. We strive for accuracy but cannot guarantee all information is completely correct.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>CoNime Privacy Policy&#xA;Your privacy is important to us. CoNime does not collect any personal data without your permission. If you contact us via a form, your information is only used for communication purposes.&#xA;This website displays third-party advertisements, including Google AdSense, which may use cookies to serve relevant ads. You can disable cookies in your browser settings.&#xA;By using this site, you agree to this privacy policy.</description>
+    </item>
+    <item>
+      <title>Terms of Service</title>
+      <link>http://localhost:1313/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terms-of-service/</guid>
+      <description>CoNime Terms of Service&#xA;By accessing CoNime , you agree to use the content responsibly and not for any illegal or harmful purposes.&#xA;Copying or redistributing content from this site without permission is prohibited. We reserve the right to modify or terminate any part of the service without prior notice.&#xA;If you do not agree with these terms, please do not use our website.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on CoNime</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on CoNime</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Mar 2023 11:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anime</title>
+      <link>http://localhost:1313/posts/anime/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/</guid>
+      <description>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum.</description>
+    </item>
+    <item>
+      <title>Post 2</title>
+      <link>http://localhost:1313/posts/post-2/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-2/</guid>
+      <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&#xA;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia.</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post-1/</guid>
+      <description>Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&#xA;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea.</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about-us/</guid>
+      <description>About CoNime&#xA;CoNime is an online news portal that delivers the latest updates on the world of anime and comics, especially for Indonesian readers. We are committed to providing up-to-date news, episode reviews, anime and manga recommendations, and other engaging content for fans.&#xA;We are not an official website of any publisher or anime studio. All content is for informational purposes and aims to enrich the fan community.&#xA;Our team consists of passionate writers and editors who love anime and comics.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Silakan hubungi kami melalui email: info@example.org atau isi formulir di bawah ini.</description>
+    </item>
+    <item>
+      <title>Disclaimer</title>
+      <link>http://localhost:1313/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/disclaimer/</guid>
+      <description>CoNime Disclaimer&#xA;CoNime is an informational portal covering anime and comics. We are not affiliated with any official content owners or trademarks mentioned. All images, videos, and excerpts are copyrights of their respective owners.&#xA;Any leaks, predictions, or fan-made content are for entertainment purposes only and are not official references. We strive for accuracy but cannot guarantee all information is completely correct.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>CoNime Privacy Policy&#xA;Your privacy is important to us. CoNime does not collect any personal data without your permission. If you contact us via a form, your information is only used for communication purposes.&#xA;This website displays third-party advertisements, including Google AdSense, which may use cookies to serve relevant ads. You can disable cookies in your browser settings.&#xA;By using this site, you agree to this privacy policy.</description>
+    </item>
+    <item>
+      <title>Terms of Service</title>
+      <link>http://localhost:1313/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/terms-of-service/</guid>
+      <description>CoNime Terms of Service&#xA;By accessing CoNime , you agree to use the content responsibly and not for any illegal or harmful purposes.&#xA;Copying or redistributing content from this site without permission is prohibited. We reserve the right to modify or terminate any part of the service without prior notice.&#xA;If you do not agree with these terms, please do not use our website.</description>
+    </item>
+  </channel>
+</rss>
