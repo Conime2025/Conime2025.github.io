@@ -29,5 +29,33 @@
       <guid>http://localhost:1313/tags/red/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Naruto</title>
+      <link>http://localhost:1313/tags/naruto/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/naruto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recommended</title>
+      <link>http://localhost:1313/tags/recommended/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/recommended/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>http://localhost:1313/tags/review/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shounen</title>
+      <link>http://localhost:1313/tags/shounen/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/shounen/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
