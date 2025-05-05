@@ -6,76 +6,76 @@
     <description>Recent content in Tags on CoNime</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 May 2025 10:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 May 2025 10:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Action</title>
-      <link>http://localhost:1313/tags/action/</link>
-      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/action/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anime Baru</title>
-      <link>http://localhost:1313/tags/anime-baru/</link>
-      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/anime-baru/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kagurabachi</title>
-      <link>http://localhost:1313/tags/kagurabachi/</link>
-      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/kagurabachi/</guid>
+      <title>Naruto</title>
+      <link>http://localhost:1313/tags/naruto/</link>
+      <pubDate>Mon, 05 May 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/naruto/</guid>
       <description></description>
     </item>
     <item>
       <title>Recommended</title>
       <link>http://localhost:1313/tags/recommended/</link>
-      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
+      <pubDate>Mon, 05 May 2025 10:00:00 -0700</pubDate>
       <guid>http://localhost:1313/tags/recommended/</guid>
       <description></description>
     </item>
     <item>
       <title>Review</title>
       <link>http://localhost:1313/tags/review/</link>
-      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
+      <pubDate>Mon, 05 May 2025 10:00:00 -0700</pubDate>
       <guid>http://localhost:1313/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shounen</title>
+      <link>http://localhost:1313/tags/shounen/</link>
+      <pubDate>Mon, 05 May 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/shounen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Action</title>
+      <link>http://localhost:1313/tags/action/</link>
+      <pubDate>Mon, 05 May 2025 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/action/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anime Baru</title>
+      <link>http://localhost:1313/tags/anime-baru/</link>
+      <pubDate>Mon, 05 May 2025 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/anime-baru/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kagurabachi</title>
+      <link>http://localhost:1313/tags/kagurabachi/</link>
+      <pubDate>Mon, 05 May 2025 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/kagurabachi/</guid>
       <description></description>
     </item>
     <item>
       <title>Blue</title>
       <link>http://localhost:1313/tags/blue/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 +0700</pubDate>
       <guid>http://localhost:1313/tags/blue/</guid>
       <description></description>
     </item>
     <item>
       <title>Green</title>
       <link>http://localhost:1313/tags/green/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 +0700</pubDate>
       <guid>http://localhost:1313/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
       <link>http://localhost:1313/tags/red/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 +0700</pubDate>
       <guid>http://localhost:1313/tags/red/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Naruto</title>
-      <link>http://localhost:1313/tags/naruto/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/naruto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shounen</title>
-      <link>http://localhost:1313/tags/shounen/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/tags/shounen/</guid>
       <description></description>
     </item>
   </channel>

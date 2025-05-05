@@ -107,23 +107,37 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        // Geser index sesuai arah
-        let offset = direction === 'next' ? 1 : -1;
+        // Tambahkan efek fade-out
+        links.forEach((el, i) => el.classList.add('fade-out'));
+        links2.forEach((el) => el.classList.add('fade-out'));
+        imgs.forEach((el) => el.classList.add('fade-out'));
+        dates.forEach((el) => el.classList.add('fade-out'));
 
-        for (let i = 0; i < total; i++) {
-            const fromIndex = (i + offset + total) % total;
+        setTimeout(() => {
 
-            links[i].setAttribute('href', temp[fromIndex].href);
-            links[i].setAttribute('alt', temp[fromIndex].alt);
+            // Geser index sesuai arah
+            let offset = direction === 'next' ? 1 : -1;
 
-            links2[i].setAttribute('href', temp[fromIndex].href2);
-            links2[i].innerText = temp[fromIndex].text2;
+            for (let i = 0; i < total; i++) {
+                const fromIndex = (i + offset + total) % total;
 
-            imgs[i].setAttribute('src', temp[fromIndex].src);
-            imgs[i].setAttribute('alt', temp[fromIndex].altImg);
+                links[i].setAttribute('href', temp[fromIndex].href);
+                links[i].setAttribute('alt', temp[fromIndex].alt);
 
-            dates[i].innerText = temp[fromIndex].dateText;
-        }
+                links2[i].setAttribute('href', temp[fromIndex].href2);
+                links2[i].innerText = temp[fromIndex].text2;
+
+                imgs[i].setAttribute('src', temp[fromIndex].src);
+                imgs[i].setAttribute('alt', temp[fromIndex].altImg);
+
+                dates[i].innerText = temp[fromIndex].dateText;
+            }
+            // Hapus fade-out, balik ke fade in
+            links.forEach((el) => el.classList.remove('fade-out'));
+            links2.forEach((el) => el.classList.remove('fade-out'));
+            imgs.forEach((el) => el.classList.remove('fade-out'));
+            dates.forEach((el) => el.classList.remove('fade-out'));
+        }, 500); // waktu fade-out = waktu di CSS
     }
 
     // Event listener tombol
@@ -134,4 +148,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-prev').addEventListener('click', () => {
         rotate('prev');
     });
+    setInterval(() => {
+        rotate('next');
+    }, 5000); // 5000ms = 5 detik
+
 });
