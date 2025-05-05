@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kagurabachi on CoNime</title>
+    <link>http://localhost:1313/tags/kagurabachi/</link>
+    <description>Recent content in Kagurabachi on CoNime</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 May 2025 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kagurabachi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang</title>
+      <link>http://localhost:1313/posts/anime/review-bluelock/</link>
+      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/review-bluelock/</guid>
+      <description>Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Review Manga Dandadan: Aksi dan Dendam dalam Dunia Pedang</title>
+      <link>http://localhost:1313/posts/comic/review-kagurabachi/</link>
+      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/comic/review-kagurabachi/</guid>
+      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</title>
+      <link>http://localhost:1313/posts/movie/review-kagurabachi/</link>
+      <pubDate>Sun, 04 May 2025 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/movie/review-kagurabachi/</guid>
+      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+  </channel>
+</rss>

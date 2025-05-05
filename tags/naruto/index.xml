@@ -9,10 +9,24 @@
     <lastBuildDate>Wed, 15 Feb 2023 10:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/naruto/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Review Anime Naruto: Perjalanan Seorang Ninja</title>
+      <title>Review Anime Tokyo Ghoul: Perjalanan Seorang Ninja</title>
       <link>http://localhost:1313/posts/anime/review-naruto/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/anime/review-naruto/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Review Manga Naruto: Perjalanan Seorang Ninja</title>
+      <link>http://localhost:1313/posts/comic/review-naruto/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/comic/review-naruto/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Review Movie Naruto: Perjalanan Seorang Ninja</title>
+      <link>http://localhost:1313/posts/movie/review-naruto/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/movie/review-naruto/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
   </channel>
