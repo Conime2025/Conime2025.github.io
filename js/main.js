@@ -1,5 +1,5 @@
 // Darkmode toggle script
-/*
+
 const html = document.documentElement;
 const toggleBtn = document.getElementById("theme-toggle");
 
@@ -10,8 +10,9 @@ toggleBtn.addEventListener("click", function () {
     } else {
         localStorage.removeItem("darkmode");
     }
-}); */
+});
 
+/*
 document.addEventListener("DOMContentLoaded", () => {
     const html = document.documentElement;
     const darkBtn = document.getElementById("darkmode");
@@ -45,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     darkBtn?.addEventListener("click", enableDarkMode);
     lightBtn?.addEventListener("click", disableDarkMode);
 });
-
+*/
 
 
 document.querySelectorAll('a[href*="%20"]').forEach(link => {
