@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/comic/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/comic/review-naruto/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/naruto/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/recommended/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/review/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/review/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/shounen/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-05T10:00:00-07:00</lastmod>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/action/</loc>
     <lastmod>2025-05-05T01:00:00+07:00</lastmod>

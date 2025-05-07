@@ -89,9 +89,9 @@
 </head>
 
 <body
-  class="font-noto font-normal w-full h-screen bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 overflow-y-scroll overflow-style-y transition duration-300 ease-in-out">
+  class="font-noto font-normal w-screen  h-screen bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 overflow-y-scroll overflow-style-y overflow-x-hidden transition duration-300 ease-in-out">
   <header
-    class="w-full z-[1000] fixed left-0 top-0 right-0 bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 transition duration-300 ease-in-out px-32 py-4 flex flex-row justify-between items-center">
+    class="w-full z-[1000] flex fixed left-0 top-0 right-0 bg-white dark:bg-black text-neutral-800 dark:text-neutral-400 transition duration-300 ease-in-out px-32 py-4   flex-row justify-between items-center">
     <a href="/" class="flex items-center">
   <svg class="w-auto h-8 sm:hidden" viewBox="0 0 336 336" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M266.658 48L181.98 168H5.66016L90.3379 48H266.658Z" fill="#A00123" />
@@ -187,40 +187,47 @@
   </div>
 </nav>
   </header>
-  <div
-    class="z-50 w-fit h-screen bg-white dark:bg-black fixed left-0 top-0 right-0 px-4 py-6 flex flex-col justify-center items-center transition duration-300 ease-in-out">
+
+  
+  <div id="menu-kiri"
+    class="z-50 w-fit h-screen flex bg-white dark:bg-black fixed left-0 top-0 right-0 px-4 py-6 flex-col justify-center items-center transition duration-300 ease-in-out">
     
-  <nav >
-    <ul class="flex flex-col gap-2 ">
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" aria-current="page" class="active" href="/">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<nav>
+  <ul class="flex flex-col gap-2 ">
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" aria-current="page" class="active" href="/">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.02 2.84004L3.63 7.04004C2.73 7.74004 2 9.23004 2 10.36V17.77C2 20.09 3.89 21.99 6.21 21.99H17.79C20.11 21.99 22 20.09 22 17.78V10.5C22 9.29004 21.19 7.74004 20.2 7.05004L14.02 2.72004C12.62 1.74004 10.37 1.79004 9.02 2.84004Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 17.99V14.99" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Home</span> 
-    </a>
-    </li>
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Home</span>
+  </a>
+</li>
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.9299 20.6898C19.4599 22.2898 20.6699 22.4498 21.5999 21.0498C22.4499 19.7698 21.8899 18.7198 20.3499 18.7198C19.2099 18.7098 18.5699 19.5998 18.9299 20.6898Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Search</span> 
-    </a>
-    </li>
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" href="/posts/anime/">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Search</span>
+  </a>
+</li>
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" href="/posts/anime/">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M2.52002 7.11011H21.48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M8.52002 2.11011V6.97011" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -228,14 +235,16 @@
 <path d="M9.75 14.4501V13.2501C9.75 11.7101 10.84 11.0801 12.17 11.8501L13.21 12.4501L14.25 13.0501C15.58 13.8201 15.58 15.0801 14.25 15.8501L13.21 16.4501L12.17 17.0501C10.84 17.8201 9.75 17.1901 9.75 15.6501V14.4501V14.4501Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Anime</span> 
-    </a>
-    </li>
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" href="/posts/movie/">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Anime</span>
+  </a>
+</li>
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" href="/posts/movie/">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M6.88989 2.52002V21.48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M16.8899 2.52002V21.48" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -249,28 +258,32 @@
 </svg>
 
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Movie</span> 
-    </a>
-    </li>
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" href="/posts/comic/">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Movie</span>
+  </a>
+</li>
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out" href="/posts/comic/">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M22 16.7399V4.66994C22 3.46994 21.02 2.57994 19.83 2.67994H19.77C17.67 2.85994 14.48 3.92994 12.7 5.04994L12.53 5.15994C12.24 5.33994 11.76 5.33994 11.47 5.15994L11.22 5.00994C9.44 3.89994 6.26 2.83994 4.16 2.66994C2.97 2.56994 2 3.46994 2 4.65994V16.7399C2 17.6999 2.78 18.5999 3.74 18.7199L4.03 18.7599C6.2 19.0499 9.55 20.1499 11.47 21.1999L11.51 21.2199C11.78 21.3699 12.21 21.3699 12.47 21.2199C14.39 20.1599 17.75 19.0499 19.93 18.7599L20.26 18.7199C21.22 18.5999 22 17.6999 22 16.7399Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M12 5.48999V20.49" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M7.75 8.48999H5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M8.5 11.49H5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Comic</span> 
-    </a>
-    </li>
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Comic</span>
+  </a>
+</li>
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9.57002 12.46L6.52002 15.51" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M6.55005 12.49L9.60005 15.54" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M13.53 14H13.54" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -281,29 +294,39 @@
 <path d="M13.01 2L13 3.01C12.99 3.56 12.55 4 12 4H11.97C11.42 4 10.98 4.45 10.98 5C10.98 5.55 11.43 6 11.98 6H12.98" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Game</span> 
-    </a>
-    </li>
-    <li class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
-      <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out">
-      
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Game</span>
+  </a>
+</li>
+<li
+  class="group relative p-3 flex justify-center items-center hover:shadow bg-white/0 hover:bg-neutral-300 dark:bg-neutral-950/0 hover:dark:bg-neutral-950 rounded-xl">
+  <a class="  group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-dark:hover:text-conime-600 group-hover:scale-125 group-transition group-duration-400 group-ease-in-out">
+    
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.5 19H8C4 19 2 18 2 13V8C2 4 4 2 8 2H16C20 2 22 4 22 8V13C22 17 20 19 16 19H15.5C15.19 19 14.89 19.15 14.7 19.4L13.2 21.4C12.54 22.28 11.46 22.28 10.8 21.4L9.3 19.4C9.14 19.18 8.77 19 8.5 19Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M7 8H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M7 13H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-      
-     <span class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Review</span> 
-    </a>
-    </li>
-    </ul>
-  </nav>
-
-  </div>
-  <main class="mx-32 mt-20 p-6 h-auto rounded-3xl transition duration-300 ease-in-out">
     
+    <span
+      class="absolute top-1/2 -translate-y-1/2 min-w-20 w-fit left-10 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex  ">Review</span>
+  </a>
+</li>
+  </ul>
+</nav>
+  </div>
+  
+
+
+
+  <main class="mx-32  mt-16 p-6 h-auto rounded-3xl transition duration-300 ease-in-out">
+    
+
+
+
+
 <div class="w-full h-[500px] py-2 mb-8 relative flex justify-center items-center">
   <div class="w-1/2 flex flex-col gap-3">
     
@@ -322,17 +345,20 @@
         
 
       </label>
-      <h1 class="text-3xl font-bold">Manga Spy Family Akan Mencapai Klimaks: Pertempuran Negara Barat dan Timur</h1>
+      <a href="/posts/comic/review-naruto/" class="  hover:underline transition duration-300 ease-in-out">
+        <h1 class="text-3xl font-bold line-clamp-3">Manga Spy Family Akan Mencapai Klimaks: Pertempuran Negara Barat dan Timur</h1>
+      </a>
       <p class="text-neutral-600 dark:text-neutral-700">
         Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.
-        <a href="/posts/comic/review-naruto/" class="text-conime-600 ml-2">Baca Selengkapnya</a>
+        <a href="/posts/comic/review-naruto/"
+          class="text-conime-600 ml-2 hover:underline transition duration-300 ease-in-out">Baca Selengkapnya</a>
       </p>
     </div>
     
 
 
     
-    <div class="h-full flex flex-col gap-2">
+    <div class="h-full flex flex-col gap-2  ">
       
       
       
@@ -353,7 +379,8 @@
               class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded">Review</a>
             
           </label>
-          <a href="/posts/comic/review-kagurabachi/" alt="Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek" class="text-base">
+          <a href="/posts/comic/review-kagurabachi/" alt="Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek"
+            class="text-base hover:underline transition duration-300 ease-in-out">
             Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek
           </a>
           <p class="text-xs text-neutral-600 dark:text-neutral-700">
@@ -376,7 +403,8 @@
               class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded">Review</a>
             
           </label>
-          <a href="/posts/movie/review-kagurabachi/" alt="Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang" class="text-base">
+          <a href="/posts/movie/review-kagurabachi/" alt="Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang"
+            class="text-base hover:underline transition duration-300 ease-in-out">
             Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang
           </a>
           <p class="text-xs text-neutral-600 dark:text-neutral-700">
@@ -399,7 +427,8 @@
               class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded">Review</a>
             
           </label>
-          <a href="/posts/anime/review-bluelock/" alt="Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang" class="text-base">
+          <a href="/posts/anime/review-bluelock/" alt="Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang"
+            class="text-base hover:underline transition duration-300 ease-in-out">
             Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang
           </a>
           <p class="text-xs text-neutral-600 dark:text-neutral-700">
@@ -408,7 +437,6 @@
         </div>
       </div>
       
-
       
     </div>
   </div>
@@ -421,7 +449,7 @@
 
     
     <div
-      class="p-2 absolute right-14 -rotate-6 bottom-4 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit">
+      class="p-2 absolute right-14 -rotate-6 bottom-6 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit">
       <div class="w-[440] h-48 rounded-xl bg-cover overflow-hidden">
         <a href="/posts/anime/review-bluelock/" alt="Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang" class="link4 fade "> <img src=" /images/E8l_Dwb_WXEA_Qnu_CH_11zon_bb1ba88225.jpg"
             class="w-full h-full object-cover hover:scale-125 transition duration-300 ease-in-out img4 fade "
@@ -444,7 +472,7 @@
 
     
     <div
-      class="p-2 absolute   right-2 rotate-12 bottom-12 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit">
+      class="p-2 absolute   right-2 rotate-12 bottom-14 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit">
       <div class="w-[440] h-48 rounded-xl bg-cover overflow-hidden">
         <a href="/posts/movie/review-kagurabachi/" alt="Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang" class="link3 fade "> <img src=" /images/66ec39306081a-anime-jujutsu-kaisen_banyuwangi.jpg"
             class="w-full h-full object-cover hover:scale-125 transition duration-300 ease-in-out img3 fade "
@@ -467,7 +495,7 @@
 
     
     <div
-      class="p-2 absolute   right-4 top-4 rotate-6 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit">
+      class="p-2 absolute   right-4 top-6 rotate-6 bg-white text-neutral-800 rounded-xl shadow-2xl shadow-neutral-900/50 w-[416px] h-fit">
       <div class="w-[440] h-48 rounded-xl bg-cover overflow-hidden">
         <a href="/posts/comic/review-kagurabachi/" alt="Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek" class="link2 fade "> <img src=" /images/068208100_1734685753-dandadan.jpg"
             class="w-full h-full object-cover hover:scale-125 transition duration-300 ease-in-out img2 fade "
@@ -517,20 +545,25 @@
 
     <div class="absolute bottom-24 right-12 flex gap-2 justify-center items-center">
       <div id="btn-prev"
-        class="p-2 flex justify-center w-fit h-fit rounded-full items-center text-neutral-400 bg-black shadow-xl shadow-black/70">
+        class="group relative p-2 flex justify-center w-fit h-fit rounded-full items-center text-neutral-400 bg-black shadow-xl shadow-black/30 hover:bg-neutral-800 transition duration-300 ease-in-out">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M15 19.9201L8.47997 13.4001C7.70997 12.6301 7.70997 11.3701 8.47997 10.6001L15 4.08008"
             stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
             stroke-linejoin="round" />
         </svg>
+        <span
+          class="absolute left-1/2 -translate-x-1/2 min-w-20 w-fit top-12 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex items-center justify-center ">Previous</span>
+
       </div>
       <div id="btn-next"
-        class="p-2 flex justify-center w-fit h-fit rounded-full items-center text-neutral-400 bg-black shadow-xl shadow-black/30">
+        class="group relative p-2 flex justify-center w-fit h-fit rounded-full items-center text-neutral-400 bg-black shadow-xl shadow-black/30 hover:bg-neutral-800 transition duration-300 ease-in-out">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008"
             stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
             stroke-linejoin="round" />
         </svg>
+        <span
+          class="absolute left-1/2 -translate-x-1/2 min-w-20 w-fit top-12 p-2 text-xs bg-neutral-300 dark:bg-neutral-950  text-neutral-700 dark:text-neutral-500   transition  duration-400 ease-in-out  shadow-2xl shadow-neutral-900/50 rounded-lg hidden group-hover:flex items-center justify-center ">Next</span>
       </div>
     </div>
   </div>
@@ -540,110 +573,326 @@
 
 
 
-
-<p>Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
+<div class="bg-blue-300 hidden ">
+  <p>Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
 pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
 excepteur excepteur pariatur nostrud qui irure ullamco.</p>
- 
-<h2><a href="/posts/comic/review-naruto/">Manga Spy Family Akan Mencapai Klimaks: Pertempuran Negara Barat dan Timur</a></h2>
-Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi. 
-<h2><a href="/posts/comic/review-kagurabachi/">Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek</a></h2>
-Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi. 
-<h2><a href="/posts/movie/review-kagurabachi/">Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</a></h2>
-Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi. 
-<h2><a href="/posts/anime/review-bluelock/">Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang</a></h2>
-Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi. 
-<h2><a href="/posts/anime/review-naruto/">Anime Tokyo Ghoul: Perjalanan Seorang Ninja</a></h2>
-Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi. 
-<h2><a href="/posts/movie/review-naruto/">Movie Naruto: Perjalanan Seorang Ninja</a></h2>
-Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi. 
-<h2><a href="/posts/post-2/">Post 2</a></h2>
-Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.
+
+</div>
+
+<div class="hidden">
+  
+  <a href="/posts/comic/review-naruto/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Manga Spy Family Akan Mencapai Klimaks: Pertempuran Negara Barat dan Timur</h2>
+  </a>
+  Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi. 
+  <a href="/posts/comic/review-kagurabachi/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek</h2>
+  </a>
+  Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi. 
+  <a href="/posts/movie/review-kagurabachi/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</h2>
+  </a>
+  Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi. 
+  <a href="/posts/anime/review-bluelock/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang</h2>
+  </a>
+  Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi. 
+  <a href="/posts/anime/review-naruto/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Anime Tokyo Ghoul: Perjalanan Seorang Ninja</h2>
+  </a>
+  Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi. 
+  <a href="/posts/movie/review-naruto/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Movie Naruto: Perjalanan Seorang Ninja</h2>
+  </a>
+  Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi. 
+  <a href="/posts/post-2/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Post 2</h2>
+  </a>
+  Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.
 Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. 
-<h2><a href="/posts/post-1/">Post 1</a></h2>
-Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.
+  <a href="/posts/post-1/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Post 1</h2>
+  </a>
+  Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.
 Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. 
-<h2><a href="/about-us/">About Us</a></h2>
-About CoNime
+  <a href="/about-us/" class="hover:underline">
+    <h2 class="bg-blue-300 ">About Us</h2>
+  </a>
+  About CoNime
 CoNime is an online news portal that delivers the latest updates on the world of anime and comics, especially for Indonesian readers. We are committed to providing up-to-date news, episode reviews, anime and manga recommendations, and other engaging content for fans.
 We are not an official website of any publisher or anime studio. All content is for informational purposes and aims to enrich the fan community.
 Our team consists of passionate writers and editors who love anime and comics. 
-<h2><a href="/contact/">Contact</a></h2>
-Silakan hubungi kami melalui email: info@example.org atau isi formulir di bawah ini. 
-<h2><a href="/disclaimer/">Disclaimer</a></h2>
-CoNime Disclaimer
+  <a href="/contact/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Contact</h2>
+  </a>
+  Silakan hubungi kami melalui email: info@example.org atau isi formulir di bawah ini. 
+  <a href="/disclaimer/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Disclaimer</h2>
+  </a>
+  CoNime Disclaimer
 CoNime is an informational portal covering anime and comics. We are not affiliated with any official content owners or trademarks mentioned. All images, videos, and excerpts are copyrights of their respective owners.
 Any leaks, predictions, or fan-made content are for entertainment purposes only and are not official references. We strive for accuracy but cannot guarantee all information is completely correct. 
-<h2><a href="/privacy-policy/">Privacy Policy</a></h2>
-CoNime Privacy Policy
+  <a href="/privacy-policy/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Privacy Policy</h2>
+  </a>
+  CoNime Privacy Policy
 Your privacy is important to us. CoNime does not collect any personal data without your permission. If you contact us via a form, your information is only used for communication purposes.
 This website displays third-party advertisements, including Google AdSense, which may use cookies to serve relevant ads. You can disable cookies in your browser settings.
 By using this site, you agree to this privacy policy. 
-<h2><a href="/terms-of-service/">Terms of Service</a></h2>
-CoNime Terms of Service
+  <a href="/terms-of-service/" class="hover:underline">
+    <h2 class="bg-blue-300 ">Terms of Service</h2>
+  </a>
+  CoNime Terms of Service
 By accessing CoNime , you agree to use the content responsibly and not for any illegal or harmful purposes.
 Copying or redistributing content from this site without permission is prohibited. We reserve the right to modify or terminate any part of the service without prior notice.
-If you do not agree with these terms, please do not use our website.  
+If you do not agree with these terms, please do not use our website. 
+</div>
+
+<div class="bg-conime-300">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="relative flex flex-row gap-y-4 w-full h-fit">
+    <a href="/posts/anime/review-bluelock/" class="w-fit h-fit rounded-lg bg-cover" alt="Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang">
+      <img src="/images/E8l_Dwb_WXEA_Qnu_CH_11zon_bb1ba88225.jpg" alt="Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang"
+        class="w-16 h-20 rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out" />
+    </a>
+    <div class="px-2 h-full w-full flex flex-col justify-center items-start">
+      <label class="flex flex-row items-center gap-2">
+        
+        <a href="/%20categories/anime" alt="Category Anime"
+          class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded hover:underline">Anime</a>
+        
+        <a href="/%20categories/review" alt="Category Review"
+          class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded hover:underline">Review</a>
+        
+      </label>
+      <a href="/posts/anime/review-bluelock/" alt="Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang" class="text-base">
+        Review Anime Blue Lock: Aksi dan Dendam dalam Dunia Pedang
+      </a>
+      <p class="text-xs text-neutral-600 dark:text-neutral-700">
+        Thu, 01 May 2025 — 01:00 AM
+      </p>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="relative flex flex-row gap-y-4 w-full h-fit">
+    <a href="/posts/anime/review-naruto/" class="w-fit h-fit rounded-lg bg-cover" alt="Anime Tokyo Ghoul: Perjalanan Seorang Ninja">
+      <img src="/images/manga-tokyo-ghoul.jpeg" alt="Anime Tokyo Ghoul: Perjalanan Seorang Ninja"
+        class="w-16 h-20 rounded-lg object-cover hover:scale-110 transition duration-300 ease-in-out" />
+    </a>
+    <div class="px-2 h-full w-full flex flex-col justify-center items-start">
+      <label class="flex flex-row items-center gap-2">
+        
+        <a href="/%20categories/anime" alt="Category Anime"
+          class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded hover:underline">Anime</a>
+        
+        <a href="/%20categories/review" alt="Category Review"
+          class="text-sm px-2 text-conime-600 bg-conime-100 dark:bg-conime-100/10 rounded hover:underline">Review</a>
+        
+      </label>
+      <a href="/posts/anime/review-naruto/" alt="Anime Tokyo Ghoul: Perjalanan Seorang Ninja" class="text-base">
+        Anime Tokyo Ghoul: Perjalanan Seorang Ninja
+      </a>
+      <p class="text-xs text-neutral-600 dark:text-neutral-700">
+        Wed, 15 Feb 2023 — 10:00 AM
+      </p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+</div>
+
+
+
+<p>posts\comic\comic1.md</p>
+
+<p>posts\comic\comic2.md</p>
+
+<p>posts\movie\movie1.md</p>
+
+<p>posts\anime\anime2.md</p>
+
+<p>posts\anime\anime1.md</p>
+
+<p>posts\movie\movie2.md</p>
+
+<p>posts\post-2.md</p>
+
+<p>posts\post-1.md</p>
+
+<p>legal\about-us.md</p>
+
+<p>contact.md</p>
+
+<p>legal\disclaimer.md</p>
+
+<p>legal\privacy-policy.md</p>
+
+<p>legal\terms-of-service.md</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Total ditemukan: 0</p>
+
+
+
   </main>
-  <footer class="flex flex-col p-4 text-sm gap-2 items-center justify-center transition duration-300 ease-in-out px-32">
+
+
+  
+  <div id="preloader"
+    class="absolute left-0 top-0 z-[9999] h-screen w-screen  flex transition-transform duration-1000 ease-in-out items-center justify-center bg-neutral-100 dark:bg-neutral-950">
+    <div>
+      <svg id="svg-conime" class="w-auto h-16 opacity-0 transition-opacity duration-1000 ease-in-out"
+        viewBox="0 0 336 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M266.658 48L181.98 168H5.66016L90.3379 48H266.658Z" fill="#A00123" />
+        <path d="M330.34 288L245.661 168H5.66016L90.3389 288H330.34Z" fill="#CF012B" />
+      </svg>
+    </div>
+    <div id="container-scroll"
+      class="overflow-hidden   opacity-0 transition-opacity duration-1000 ease-in-out h-8 font-bold  flex flex-col items-center justify-start">
+      <div id="animate-scroll" class="inline-block transition-transform duration-1000 ease-in-out   text-xl uppercase">
+        <span class="mx-2 h-8 block">Conime</span>
+        <span class="mx-2 h-8 block">Anime</span>
+        <span class="mx-2 h-8 block">Comic</span>
+        <span class="mx-2 h-8 block">Movie</span>
+        <span class="mx-2 h-8 block">Game</span>
+        <span class="mx-2 h-8 block">Review</span>
+        <span class="mx-2 h-8 block">Conime</span>
+
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+  <footer
+    class="flex flex-col p-4 text-sm gap-2   items-center justify-center transition duration-300 ease-in-out px-32">
     
 <nav>
   <ul class="flex flex-row gap-2">
 
-  <li class="group relative flex justify-center items-center">
-    <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/about-us/"
-    >
-      <span class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
-        About Us
-      </span>
-    </a>
-  </li>
+<li class="group relative flex justify-center items-center">
+  <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/about-us/">
+    <span
+      class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
+      About Us
+    </span>
+  </a>
+</li>
 
-  <li class="group relative flex justify-center items-center">
-    <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/contact/"
-    >
-      <span class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
-        Contact
-      </span>
-    </a>
-  </li>
+<li class="group relative flex justify-center items-center">
+  <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/contact/">
+    <span
+      class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
+      Contact
+    </span>
+  </a>
+</li>
 
-  <li class="group relative flex justify-center items-center">
-    <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/privacy-policy/"
-    >
-      <span class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
-        Privacy Policy
-      </span>
-    </a>
-  </li>
+<li class="group relative flex justify-center items-center">
+  <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/privacy-policy/">
+    <span
+      class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
+      Privacy Policy
+    </span>
+  </a>
+</li>
 
-  <li class="group relative flex justify-center items-center">
-    <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/terms-of-service/"
-    >
-      <span class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
-        Terms of Service
-      </span>
-    </a>
-  </li>
+<li class="group relative flex justify-center items-center">
+  <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/terms-of-service/">
+    <span
+      class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
+      Terms of Service
+    </span>
+  </a>
+</li>
 
-  <li class="group relative flex justify-center items-center">
-    <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/disclaimer/"
-    >
-      <span class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
-        Disclaimer
-      </span>
-    </a>
-  </li>
+<li class="group relative flex justify-center items-center">
+  <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/disclaimer/">
+    <span
+      class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
+      Disclaimer
+    </span>
+  </a>
+</li>
 
-  <li class="group relative flex justify-center items-center">
-    <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/tags/"
-    >
-      <span class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
-        Tags
-      </span>
-    </a>
-  </li>
-
+<li class="group relative flex justify-center items-center">
+  <a class="group-hover:text-conime-600 text-neutral-700 dark:text-neutral-500 group group-hover:dark:text-conime-600 transition-colors duration-400 ease-in-out" href="/tags/">
+    <span
+      class="w-fit p-2 text-sm text-neutral-700 dark:text-neutral-500 group-hover:text-conime-600 transition duration-400 ease-in-out shadow rounded-lg">
+      Tags
+    </span>
+  </a>
+</li>
   </ul>
 </nav>
  <p>&copy; Copyright 2025 CoNime. All rights reserved.</p>
@@ -651,6 +900,98 @@ If you do not agree with these terms, please do not use our website.
     <script src="/js/main.js"></script>
 
 
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const isHome = window.location.pathname === "/" || window.location.pathname === "/index.html";
+        const preloader = document.querySelector("#preloader");
+        const header = document.querySelector("header");
+        const menuKiri = document.querySelector("#menu-kiri");
+        const main = document.querySelector("main");
+        const footer = document.querySelector("footer");
+
+        const svgConime = document.querySelector("#svg-conime");
+        const containerScroll = document.querySelector("#container-scroll");
+        const animateScroll = document.querySelector("#animate-scroll");
+
+        if (isHome) {
+          const alreadyShown = sessionStorage.getItem("shownPreloader");
+
+          if (!alreadyShown) {
+            
+            preloader.classList.remove("hidden");
+            preloader.classList.add("flex");
+
+            
+            header?.classList.add("hidden");
+            menuKiri?.classList.add("hidden");
+            main?.classList.add("hidden");
+            footer?.classList.add("hidden");
+            header?.classList.remove("flex");
+            menuKiri?.classList.remove("flex");
+            footer?.classList.remove("flex");
+
+            
+            setTimeout(() => {
+              svgConime?.classList.remove("opacity-0");
+              containerScroll?.classList.remove("opacity-0");
+
+
+              
+              setTimeout(() => {
+                svgConime?.classList.add("opacity-100");
+                containerScroll?.classList.add("opacity-100");
+                animateScroll?.classList.add("animate-scroll");
+              }, 1000);
+            }, 1000); 
+
+            
+            setTimeout(() => {
+              svgConime?.classList.add("opacity-0");
+              containerScroll?.classList.add("opacity-0");
+              preloader.classList.add("-translate-y-full");
+
+
+
+              setTimeout(() => {
+                preloader.classList.remove("flex");
+                preloader.classList.add("hidden");
+              }, 500);
+
+              header?.classList.remove("hidden");
+              header?.classList.add("flex");
+              menuKiri?.classList.remove("hidden");
+              menuKiri?.classList.add("flex");
+              main?.classList.remove("hidden");
+              footer?.classList.remove("hidden");
+              footer?.classList.add("flex");
+
+
+
+              sessionStorage.setItem("shownPreloader", "true");
+            }, 8000);
+          } else {
+            
+            preloader.classList.add("hidden");
+
+            header?.classList.remove("hidden");
+            header?.classList.add("flex");
+            menuKiri?.classList.remove("hidden");
+            menuKiri?.classList.add("flex");
+            main?.classList.remove("hidden");
+
+            footer?.classList.remove("hidden");
+            footer?.classList.add("flex");
+
+            
+            svgConime?.classList.remove("opacity-0");
+            containerScroll?.classList.remove("opacity-0");
+            containerScroll?.classList.add("animate-scroll");
+          }
+        } else {
+          preloader.classList.add("hidden");
+        }
+      });
+    </script>
 
 
 

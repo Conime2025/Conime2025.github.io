@@ -12,42 +12,6 @@ toggleBtn.addEventListener("click", function () {
     }
 });
 
-/*
-document.addEventListener("DOMContentLoaded", () => {
-    const html = document.documentElement;
-    const darkBtn = document.getElementById("darkmode");
-    const lightBtn = document.getElementById("lightmode");
-
-    // Fungsi untuk aktifkan dark mode
-    const enableDarkMode = () => {
-        html.classList.add("dark");
-        localStorage.setItem("darkmode", "true");
-        darkBtn?.classList.add("hidden");
-        lightBtn?.classList.remove("hidden");
-    };
-
-    // Fungsi untuk nonaktifkan dark mode
-    const disableDarkMode = () => {
-        html.classList.remove("dark");
-        localStorage.setItem("darkmode", "false");
-        lightBtn?.classList.add("hidden");
-        darkBtn?.classList.remove("hidden");
-    };
-
-    // Cek localStorage saat pertama kali load
-    const savedMode = localStorage.getItem("darkmode");
-    if (savedMode === "true") {
-        enableDarkMode();
-    } else {
-        disableDarkMode();
-    }
-
-    // Event listener
-    darkBtn?.addEventListener("click", enableDarkMode);
-    lightBtn?.addEventListener("click", disableDarkMode);
-});
-*/
-
 
 document.querySelectorAll('a[href*="%20"]').forEach(link => {
     link.href = link.href.replace(/%20/g, '');
