@@ -118,3 +118,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 5000); // 5000ms = 5 detik
 
 });
+
+
+
+
+
+
