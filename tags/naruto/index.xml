@@ -9,31 +9,24 @@
     <lastBuildDate>Mon, 05 May 2025 10:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/naruto/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Manga Spy Family Akan Mencapai Klimaks: Pertempuran Negara Barat dan Timur</title>
-      <link>http://localhost:1313/posts/anime/review-naruto/</link>
+      <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
+      <link>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</link>
       <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-naruto/</guid>
+      <guid>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</guid>
       <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
-      <title>Manga Spy Family Akan Mencapai Klimaks: Pertempuran Negara Barat dan Timur</title>
-      <link>http://localhost:1313/posts/comic/review-naruto/</link>
-      <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/comic/review-naruto/</guid>
-      <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
-    </item>
-    <item>
-      <title>Anime Tokyo Ghoul: Perjalanan Seorang Ninja</title>
-      <link>http://localhost:1313/posts/anime/review-naruto/</link>
+      <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
+      <link>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-naruto/</guid>
+      <guid>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
       <title>Movie Naruto: Perjalanan Seorang Ninja</title>
-      <link>http://localhost:1313/posts/movie/review-naruto/</link>
+      <link>http://localhost:1313/posts/movie/review-movie-naruto/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/movie/review-naruto/</guid>
+      <guid>http://localhost:1313/posts/movie/review-movie-naruto/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
   </channel>

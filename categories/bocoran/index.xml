@@ -9,11 +9,25 @@
     <lastBuildDate>Mon, 05 May 2025 01:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bocoran/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Manga Dandadan Chapter 120: Okarun berhasil mengejar Nenek</title>
-      <link>http://localhost:1313/posts/anime/review-kagurabachi/</link>
+      <title>Manga One Piece Chapter 1205: Luffy mengalahkan Kaido dan anak buahnya</title>
+      <link>http://localhost:1313/posts/comic/manga-one-piece-chapter-1205/</link>
       <pubDate>Mon, 05 May 2025 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-kagurabachi/</guid>
+      <guid>http://localhost:1313/posts/comic/manga-one-piece-chapter-1205/</guid>
       <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Anime Dandadan Episode 12: Okarun berhasil mengejar Nenek</title>
+      <link>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</link>
+      <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</guid>
+      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Movie Naruto: Perjalanan Seorang Ninja</title>
+      <link>http://localhost:1313/posts/movie/review-movie-naruto/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/movie/review-movie-naruto/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
   </channel>
 </rss>
