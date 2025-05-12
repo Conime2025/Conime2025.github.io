@@ -17,13 +17,6 @@
     </item>
     <item>
       <title>Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</title>
-      <link>http://localhost:1313/posts/game/review-movie-kagurabachi2/</link>
-      <pubDate>Sat, 03 May 2025 16:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/game/review-movie-kagurabachi2/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</title>
       <link>http://localhost:1313/posts/game/review-movie-kagurabachi5/</link>
       <pubDate>Sat, 03 May 2025 16:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/game/review-movie-kagurabachi5/</guid>
@@ -58,10 +51,31 @@
       <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
     </item>
     <item>
+      <title>Review Movie Jujutsu Kaisen: Pertarungan Final Sukuna vs Gojo dan Sekolah Jujutsu Kyoto dan Tokyo</title>
+      <link>http://localhost:1313/posts/game/review-movie-kagurabachi2/</link>
+      <pubDate>Sat, 03 May 2025 16:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/game/review-movie-kagurabachi2/</guid>
+      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
       <title>Review Anime Blue Lock: Kekalahan telak</title>
       <link>http://localhost:1313/posts/anime/review-bluelock/</link>
       <pubDate>Thu, 01 May 2025 01:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/anime/review-bluelock/</guid>
+      <description>Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Review Anime Blue Lock: Kekalahan telak</title>
+      <link>http://localhost:1313/posts/anime/review-bluelock/</link>
+      <pubDate>Thu, 01 May 2025 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/review-bluelock/</guid>
+      <description>Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Review Anime Blue Lock: Kekalahan telak</title>
+      <link>http://localhost:1313/posts/game/review-bluelock/</link>
+      <pubDate>Thu, 01 May 2025 01:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/game/review-bluelock/</guid>
       <description>Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
     </item>
     <item>
@@ -72,10 +86,17 @@
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
-      <title>Movie Boruto: Perjalanan Seorang Ninja</title>
-      <link>http://localhost:1313/posts/game/review-movie-naruto3/</link>
-      <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/game/review-movie-naruto3/</guid>
+      <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
+      <link>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
+      <link>http://localhost:1313/posts/game/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/game/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
@@ -83,6 +104,13 @@
       <link>http://localhost:1313/posts/review/review-movie-naruto3/</link>
       <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/review/review-movie-naruto3/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Movie Boruto: Perjalanan Seorang Ninja dalam mencari kebenaran di balik bangkitanya Kaguya</title>
+      <link>http://localhost:1313/posts/game/review-movie-naruto3/</link>
+      <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/game/review-movie-naruto3/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
   </channel>

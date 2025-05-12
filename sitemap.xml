@@ -8,6 +8,12 @@
     <loc>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</loc>
     <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</loc>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/game/anime-spy-family-akan-tayang/</loc>
+    <lastmod>2025-05-05T10:00:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-05-05T10:00:00+07:00</lastmod>
   </url><url>
@@ -53,10 +59,13 @@
     <loc>http://localhost:1313/posts/anime/review-anime-jjk/</loc>
     <lastmod>2025-05-03T17:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/movie/</loc>
-    <lastmod>2025-05-03T16:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/posts/anime/review-anime-jjk/</loc>
+    <lastmod>2025-05-03T17:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/game/review-movie-kagurabachi2/</loc>
+    <loc>http://localhost:1313/posts/game/review-anime-jjk/</loc>
+    <lastmod>2025-05-03T17:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/movie/</loc>
     <lastmod>2025-05-03T16:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/game/review-movie-kagurabachi5/</loc>
@@ -74,7 +83,16 @@
     <loc>http://localhost:1313/posts/review/review-movie-kagurabachi2/</loc>
     <lastmod>2025-05-03T16:00:00+07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/game/review-movie-kagurabachi2/</loc>
+    <lastmod>2025-05-03T16:00:00+07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/anime/review-bluelock/</loc>
+    <lastmod>2025-05-01T01:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/anime/review-bluelock/</loc>
+    <lastmod>2025-05-01T01:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/game/review-bluelock/</loc>
     <lastmod>2025-05-01T01:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</loc>
@@ -83,14 +101,20 @@
     <loc>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</loc>
     <lastmod>2024-05-05T01:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/anime/</loc>
-    <lastmod>2023-03-15T11:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/posts/game/anime-dandadan-episode-12/</loc>
+    <lastmod>2024-05-05T01:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/comic/</loc>
-    <lastmod>2023-03-15T11:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</loc>
+    <lastmod>2024-05-05T01:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</loc>
+    <lastmod>2024-05-05T01:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/game/anime-dandadan-episode-12/</loc>
+    <lastmod>2024-05-05T01:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/game/</loc>
-    <lastmod>2023-03-15T11:00:00+07:00</lastmod>
+    <lastmod>2023-05-15T11:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/movie/</loc>
     <lastmod>2023-03-15T11:00:00+07:00</lastmod>
@@ -98,28 +122,31 @@
     <loc>http://localhost:1313/posts/review/</loc>
     <lastmod>2023-03-15T11:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blue/</loc>
-    <lastmod>2023-03-15T11:00:00+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/red/</loc>
-    <lastmod>2023-03-15T11:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</loc>
+    <lastmod>2023-02-15T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</loc>
+    <lastmod>2023-02-15T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/game/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</loc>
+    <lastmod>2023-02-15T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/green/</loc>
     <lastmod>2023-02-15T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/game/review-movie-naruto3/</loc>
-    <lastmod>2023-02-14T10:00:00+07:00</lastmod>
+    <loc>http://localhost:1313/tags/red/</loc>
+    <lastmod>2023-02-15T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/movie/review-movie-naruto/</loc>
     <lastmod>2023-02-14T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/review/review-movie-naruto3/</loc>
+    <lastmod>2023-02-14T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/game/review-movie-naruto3/</loc>
     <lastmod>2023-02-14T10:00:00+07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/post-1/</loc>
