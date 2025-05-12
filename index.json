@@ -1,0 +1,36 @@
+[
+    {
+        {- $pages := .Site.RegularPages -
+        }
+    }
+{
+        {- range $i, $p := $pages -
+        }
+    }
+{
+        {- if gt $i 0
+        }
+    },
+    {
+        { end
+        }
+    }
+{
+        "title": {
+            { $p.Title | jsonify
+            }
+        },
+        "content": {
+            { $p.Plain | jsonify
+            }
+        },
+        "url": {
+            { $p.RelPermalink | jsonify
+            }
+        }
+    }
+{
+        {- end -
+        }
+    }
+]

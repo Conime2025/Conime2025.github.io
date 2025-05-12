@@ -121,6 +121,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+const scrollContainer = document.getElementById('autoScroll');
+let scrollDirection = 1; // 1: ke kanan, -1: ke kiri
+
+function autoScroll() {
+    const maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
+
+    scrollContainer.scrollLeft += scrollDirection * 0.5; // Kecepatan scroll (semakin kecil semakin lambat)
+
+    // Balik arah saat mencapai ujung
+    if (scrollContainer.scrollLeft >= maxScroll || scrollContainer.scrollLeft <= 0) {
+        scrollDirection *= -1;
+    }
+
+    requestAnimationFrame(autoScroll); // Scroll halus terus-menerus
+}
+
+requestAnimationFrame(autoScroll);
 
 
 
