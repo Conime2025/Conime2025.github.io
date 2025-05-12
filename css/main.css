@@ -1077,6 +1077,14 @@ input[type="checkbox"]:checked:focus {
   height: 100vh;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1441,6 +1449,10 @@ input[type="checkbox"]:checked:focus {
 
 .bg-white\/0 {
   background-color: rgb(255 255 255 / 0);
+}
+
+.bg-conime-50\/10 {
+  background-color: rgb(255 229 236 / 0.1);
 }
 
 .bg-cover {
@@ -1872,6 +1884,11 @@ input[type="checkbox"]:checked:focus {
 
 .hover\:shadow-neutral-900\/50:hover {
   --tw-shadow-color: rgb(23 23 23 / 0.5);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:shadow-neutral-900\/20:hover {
+  --tw-shadow-color: rgb(23 23 23 / 0.2);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
