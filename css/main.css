@@ -901,6 +901,10 @@ input[type="checkbox"]:checked:focus {
   top: 3rem;
 }
 
+.top-14 {
+  top: 3.5rem;
+}
+
 .top-2 {
   top: 0.5rem;
 }
@@ -915,6 +919,10 @@ input[type="checkbox"]:checked:focus {
 
 .top-6 {
   top: 1.5rem;
+}
+
+.left-14 {
+  left: 3.5rem;
 }
 
 .z-10 {
@@ -1798,6 +1806,11 @@ input[type="checkbox"]:checked:focus {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-black\/10 {
+  --tw-shadow-color: rgb(0 0 0 / 0.1);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1960,6 +1973,11 @@ input[type="checkbox"]:checked:focus {
 
 .hover\:shadow-neutral-900\/50:hover {
   --tw-shadow-color: rgb(23 23 23 / 0.5);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:shadow-black\/40:hover {
+  --tw-shadow-color: rgb(0 0 0 / 0.4);
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -2171,6 +2189,11 @@ input[type="checkbox"]:checked:focus {
 
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:shadow-black\/30 {
+    --tw-shadow-color: rgb(0 0 0 / 0.3);
+    --tw-shadow: var(--tw-shadow-colored);
   }
 }
 
