@@ -10,31 +10,10 @@
     <atom:link href="http://localhost:1313/tags/shounen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
-      <link>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</link>
-      <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</guid>
-      <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
-    </item>
-    <item>
-      <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
-      <link>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</link>
-      <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</guid>
-      <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
-    </item>
-    <item>
-      <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
       <link>http://localhost:1313/posts/game/anime-spy-family-akan-tayang/</link>
       <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/game/anime-spy-family-akan-tayang/</guid>
       <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
-    </item>
-    <item>
-      <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
-      <link>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</guid>
-      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
       <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
@@ -52,6 +31,13 @@
     </item>
     <item>
       <title>Movie Boruto: Perjalanan Seorang Ninja</title>
+      <link>http://localhost:1313/posts/comic/review-movie-naruto/</link>
+      <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/comic/review-movie-naruto/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Movie Boruto: Perjalanan Seorang Ninja</title>
       <link>http://localhost:1313/posts/movie/review-movie-naruto/</link>
       <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/movie/review-movie-naruto/</guid>
@@ -62,6 +48,13 @@
       <link>http://localhost:1313/posts/review/review-movie-naruto3/</link>
       <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/review/review-movie-naruto3/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Movie Boruto: Perjalanan Seorang Ninja dalam mencari kebenaran di balik bangkitanya Kaguya</title>
+      <link>http://localhost:1313/posts/anime/review-movie-naruto3/</link>
+      <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/review-movie-naruto3/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>

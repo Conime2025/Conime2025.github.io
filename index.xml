@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on CoNime</title>
+    <title>CoNime</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on CoNime</description>
+    <description>Recent content on CoNime</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 05 May 2025 10:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
-      <link>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</link>
-      <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</guid>
-      <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
-    </item>
-    <item>
-      <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
-      <link>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</link>
-      <pubDate>Mon, 05 May 2025 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-spy-family-akan-tayang/</guid>
-      <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
-    </item>
     <item>
       <title>Anime Spy Family Akan Tayang Tahun Depan: Pertempuran Negara Barat dan Timur</title>
       <link>http://localhost:1313/posts/game/anime-spy-family-akan-tayang/</link>
@@ -30,38 +16,24 @@
       <description>Minggu depan akan menjadi cerita menegangkan, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
-      <title>Manga Dandadan Chapter 120:</title>
-      <link>http://localhost:1313/posts/comic/manga-dandadan-120/</link>
-      <pubDate>Mon, 05 May 2025 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/comic/manga-dandadan-120/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Manga One Piece Chapter 1205: Luffy mengalahkan Kaido dan anak buahnya</title>
-      <link>http://localhost:1313/posts/comic/manga-one-piece-chapter-1205/</link>
-      <pubDate>Mon, 05 May 2025 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/comic/manga-one-piece-chapter-1205/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Review Anime Jujutsu Kaisen 34: Aksi dan Dendam dalam Dunia Pedang</title>
-      <link>http://localhost:1313/posts/anime/review-anime-jjk/</link>
-      <pubDate>Sat, 03 May 2025 17:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-anime-jjk/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Review Anime Jujutsu Kaisen 34: Aksi dan Dendam dalam Dunia Pedang</title>
-      <link>http://localhost:1313/posts/anime/review-anime-jjk/</link>
-      <pubDate>Sat, 03 May 2025 17:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-anime-jjk/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
       <title>Review Anime Jujutsu Kaisen 34: Aksi dan Dendam dalam Dunia Pedang</title>
       <link>http://localhost:1313/posts/game/review-anime-jjk/</link>
       <pubDate>Sat, 03 May 2025 17:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/game/review-anime-jjk/</guid>
+      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</title>
+      <link>http://localhost:1313/posts/comic/review-movie-kagurabachi/</link>
+      <pubDate>Sat, 03 May 2025 16:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/comic/review-movie-kagurabachi/</guid>
+      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
+    </item>
+    <item>
+      <title>Review Movie Jujutsu Kaisen: Aksi dan Dendam dalam Dunia Pedang</title>
+      <link>http://localhost:1313/posts/comic/review-movie-kagurabachi/</link>
+      <pubDate>Sat, 03 May 2025 16:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/comic/review-movie-kagurabachi/</guid>
       <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
     </item>
     <item>
@@ -108,20 +80,6 @@
     </item>
     <item>
       <title>Review Anime Blue Lock: Kekalahan telak</title>
-      <link>http://localhost:1313/posts/anime/review-bluelock/</link>
-      <pubDate>Thu, 01 May 2025 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-bluelock/</guid>
-      <description>Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Review Anime Blue Lock: Kekalahan telak</title>
-      <link>http://localhost:1313/posts/anime/review-bluelock/</link>
-      <pubDate>Thu, 01 May 2025 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/review-bluelock/</guid>
-      <description>Ulasan awal anime Blue Lock, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Review Anime Blue Lock: Kekalahan telak</title>
       <link>http://localhost:1313/posts/game/review-bluelock/</link>
       <pubDate>Thu, 01 May 2025 01:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/game/review-bluelock/</guid>
@@ -129,37 +87,9 @@
     </item>
     <item>
       <title>Anime Dandadan Episode 12: Okarun berhasil mengejar Nenek</title>
-      <link>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</link>
-      <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Anime Dandadan Episode 12: Okarun berhasil mengejar Nenek</title>
-      <link>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</link>
-      <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Anime Dandadan Episode 12: Okarun berhasil mengejar Nenek</title>
       <link>http://localhost:1313/posts/game/anime-dandadan-episode-12/</link>
       <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/game/anime-dandadan-episode-12/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Dandadan Episode 13: Okarun berhasil mengejar Nenek</title>
-      <link>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</link>
-      <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</guid>
-      <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Dandadan Episode 13: Okarun berhasil mengejar Nenek</title>
-      <link>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</link>
-      <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-dandadan-episode-12/</guid>
       <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
     </item>
     <item>
@@ -168,13 +98,6 @@
       <pubDate>Sun, 05 May 2024 01:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/game/anime-dandadan-episode-12/</guid>
       <description>Ulasan awal anime Kagurabachi, sebuah cerita baru dengan gaya visual yang menawan dan cerita balas dendam yang penuh emosi.</description>
-    </item>
-    <item>
-      <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
-      <link>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/posts/anime/anime-tokyo-ghoul-perjalanan-seorang-ghoul/</guid>
-      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
       <title>Anime Tokyo Ghoul: Perjalanan Seorang Ghoul</title>
@@ -199,6 +122,13 @@
     </item>
     <item>
       <title>Movie Boruto: Perjalanan Seorang Ninja</title>
+      <link>http://localhost:1313/posts/comic/review-movie-naruto/</link>
+      <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/comic/review-movie-naruto/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Movie Boruto: Perjalanan Seorang Ninja</title>
       <link>http://localhost:1313/posts/movie/review-movie-naruto/</link>
       <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/movie/review-movie-naruto/</guid>
@@ -209,6 +139,13 @@
       <link>http://localhost:1313/posts/review/review-movie-naruto3/</link>
       <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
       <guid>http://localhost:1313/posts/review/review-movie-naruto3/</guid>
+      <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
+    </item>
+    <item>
+      <title>Movie Boruto: Perjalanan Seorang Ninja dalam mencari kebenaran di balik bangkitanya Kaguya</title>
+      <link>http://localhost:1313/posts/anime/review-movie-naruto3/</link>
+      <pubDate>Tue, 14 Feb 2023 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/posts/anime/review-movie-naruto3/</guid>
       <description>Ulasan lengkap anime Naruto, perjalanan seorang ninja menuju cita-cita tertinggi.</description>
     </item>
     <item>
@@ -237,7 +174,7 @@
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>Silakan hubungi kami melalui email: info@example.org atau isi formulir di bawah ini.</description>
+      <description>Contact Us&#xA;We’d love to hear from you!&#xA;For any inquiries, suggestions, collaboration proposals, or press releases, please don’t hesitate to reach out to us through the following channels:&#xA;conime2025@gmail.com&#xD;+62 812-3195-8808&#xD;Our team will get back to you as soon as possible during business hours.&#xA;Thank you for your interest in CoNime!</description>
     </item>
     <item>
       <title>Disclaimer</title>
