@@ -593,10 +593,6 @@ video {
   -webkit-text-stroke: 1px black;
 }
 
-p {
-  line-height: 1.75rem;
-}
-
 button {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1252,6 +1248,10 @@ input[type="checkbox"]:checked:focus {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1652,8 +1652,8 @@ input[type="checkbox"]:checked:focus {
   text-align: center;
 }
 
-.font-noto {
-  font-family: Noto Sans, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+.font-inter {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .font-ysabeu {
@@ -1725,6 +1725,14 @@ input[type="checkbox"]:checked:focus {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .text-conime-600 {
@@ -2100,11 +2108,6 @@ input[type="checkbox"]:checked:focus {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.dark\:text-neutral-600:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(82 82 82 / var(--tw-text-opacity, 1));
-}
-
 .dark\:opacity-20:is(.dark *) {
   opacity: 0.2;
 }
@@ -2223,26 +2226,6 @@ input[type="checkbox"]:checked:focus {
     --tw-shadow-color: rgb(0 0 0 / 0.2);
     --tw-shadow: var(--tw-shadow-colored);
   }
-}
-
-.\[\&\>\*\:nth-child\(1\)\]\:text-conime-600>*:nth-child(1) {
-  --tw-text-opacity: 1;
-  color: rgb(207 1 43 / var(--tw-text-opacity, 1));
-}
-
-.\[\&\>\*\:nth-child\(1\)\]\:dark\:text-neutral-600:is(.dark *)>*:nth-child(1) {
-  --tw-text-opacity: 1;
-  color: rgb(82 82 82 / var(--tw-text-opacity, 1));
-}
-
-.\[\&\>\*\:nth-child\(1\)\]\:dark\:text-neutral-100:is(.dark *)>*:nth-child(1) {
-  --tw-text-opacity: 1;
-  color: rgb(245 245 245 / var(--tw-text-opacity, 1));
-}
-
-.\[\&\>\*\:nth-child\(1\)\]\:dark\:text-conime-600:is(.dark *)>*:nth-child(1) {
-  --tw-text-opacity: 1;
-  color: rgb(207 1 43 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
