@@ -921,6 +921,14 @@ input[type="checkbox"]:checked:focus {
   top: 1.5rem;
 }
 
+.top-32 {
+  top: 8rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -935,6 +943,10 @@ input[type="checkbox"]:checked:focus {
 
 .z-\[9999\] {
   z-index: 9999;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .m-2 {
@@ -964,6 +976,16 @@ input[type="checkbox"]:checked:focus {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .mb-1 {
@@ -1012,6 +1034,42 @@ input[type="checkbox"]:checked:focus {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-52 {
+  margin-top: 13rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
+}
+
+.mt-80 {
+  margin-top: 20rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
 }
 
 .line-clamp-2 {
@@ -1115,6 +1173,10 @@ input[type="checkbox"]:checked:focus {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-52 {
+  height: 13rem;
 }
 
 .w-1\/2 {
@@ -1299,6 +1361,10 @@ input[type="checkbox"]:checked:focus {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-\[1px\] {
+  gap: 1px;
 }
 
 .gap-x-0 {
@@ -1514,6 +1580,87 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(255 255 255 / 0);
 }
 
+.bg-white\/20 {
+  background-color: rgb(255 255 255 / 0.2);
+}
+
+.bg-white\/60 {
+  background-color: rgb(255 255 255 / 0.6);
+}
+
+.bg-white\/80 {
+  background-color: rgb(255 255 255 / 0.8);
+}
+
+.bg-conime-50\/20 {
+  background-color: rgb(255 229 236 / 0.2);
+}
+
+.bg-conime-50\/40 {
+  background-color: rgb(255 229 236 / 0.4);
+}
+
+.bg-conime-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 229 236 / var(--tw-bg-opacity, 1));
+}
+
+.bg-conime-50\/90 {
+  background-color: rgb(255 229 236 / 0.9);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#000000\2c _\#CF012B\)\] {
+  background-image: radial-gradient(circle at center, #000000, #CF012B);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#000\2c _\#111\2c _\#CF012B\)\] {
+  background-image: radial-gradient(circle at center, #000, #111, #CF012B);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#111\2c _\#000\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #111, #000);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#000\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #000);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#000\2c _\#000\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #000, #000);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#75011B\2c _\#000\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #75011B, #000);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #fff, #fff);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #fff, #fff, #fff);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #fff, #fff, #fff);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#ffe5ec\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #ffe5ec, #fff, #fff, #fff);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#FF1545\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #FF1545, #fff, #fff, #fff);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#FF1545\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #FF1545, #fff, #fff, #fff);
+}
+
+.bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#FF1545\2c _\#fff\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #FF1545, #fff, #fff, #fff, #fff);
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1553,6 +1700,14 @@ input[type="checkbox"]:checked:focus {
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-\[1px\] {
+  padding: 1px;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-1 {
@@ -1605,6 +1760,16 @@ input[type="checkbox"]:checked:focus {
   padding-bottom: 2rem;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1615,6 +1780,34 @@ input[type="checkbox"]:checked:focus {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .text-center {
@@ -1762,6 +1955,10 @@ input[type="checkbox"]:checked:focus {
   opacity: 0.7;
 }
 
+.opacity-25 {
+  opacity: 0.25;
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1807,6 +2004,11 @@ input[type="checkbox"]:checked:focus {
 
 .brightness-75 {
   --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.brightness-0 {
+  --tw-brightness: brightness(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1865,6 +2067,11 @@ input[type="checkbox"]:checked:focus {
 .placeholder\:text-neutral-700::placeholder {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity, 1));
+}
+
+.backdrop\:blur-md::backdrop {
+  --tw-blur: blur(12px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .first\:bg-blue-500:first-child {
@@ -1947,6 +2154,10 @@ input[type="checkbox"]:checked:focus {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:opacity-75:hover {
+  opacity: 0.75;
 }
 
 .hover\:shadow:hover {
@@ -2056,6 +2267,67 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(10 10 10 / 0.3);
 }
 
+.dark\:bg-neutral-500:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(115 115 115 / var(--tw-bg-opacity, 1));
+}
+
+.dark\:bg-neutral-950\/20:is(.dark *) {
+  background-color: rgb(10 10 10 / 0.2);
+}
+
+.dark\:bg-black\/50:is(.dark *) {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.dark\:bg-black\/80:is(.dark *) {
+  background-color: rgb(0 0 0 / 0.8);
+}
+
+.dark\:bg-black\/90:is(.dark *) {
+  background-color: rgb(0 0 0 / 0.9);
+}
+
+.dark\:bg-neutral-950\/40:is(.dark *) {
+  background-color: rgb(10 10 10 / 0.4);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#000\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #000, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#75011B\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #75011B, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#5C0317\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #5C0317, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #5C0317, #000, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#111\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #5C0317, #000, #111, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #5C0317, #000, #000, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #000, #000, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #000, #000, #000);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #000, #000, #000, #000);
+}
+
 .dark\:text-neutral-200:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(229 229 229 / var(--tw-text-opacity, 1));
@@ -2079,6 +2351,16 @@ input[type="checkbox"]:checked:focus {
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.dark\:text-conime-400:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(233 51 90 / var(--tw-text-opacity, 1));
+}
+
+.dark\:text-neutral-600:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity, 1));
 }
 
 .dark\:opacity-20:is(.dark *) {
@@ -2152,6 +2434,22 @@ input[type="checkbox"]:checked:focus {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -2177,6 +2475,10 @@ input[type="checkbox"]:checked:focus {
 
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:shadow-black\/20 {
