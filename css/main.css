@@ -1308,6 +1308,10 @@ input[type="checkbox"]:checked:focus {
   justify-content: space-between;
 }
 
+.justify-stretch {
+  justify-content: stretch;
+}
+
 .gap-0 {
   gap: 0px;
 }
@@ -1542,6 +1546,10 @@ input[type="checkbox"]:checked:focus {
 
 .bg-white\/80 {
   background-color: rgb(255 255 255 / 0.8);
+}
+
+.bg-conime-50\/70 {
+  background-color: rgb(255 229 236 / 0.7);
 }
 
 .bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#FF1545\2c _\#fff\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
@@ -2364,10 +2372,6 @@ input[type="checkbox"]:checked:focus {
 
   .md\:justify-start {
     justify-content: flex-start;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
   }
 
   .md\:gap-4 {
