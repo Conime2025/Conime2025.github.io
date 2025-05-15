@@ -937,6 +937,11 @@ input[type="checkbox"]:checked:focus {
   margin: 0.5rem;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -955,11 +960,6 @@ input[type="checkbox"]:checked:focus {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .mb-1 {
@@ -986,6 +986,10 @@ input[type="checkbox"]:checked:focus {
   margin-left: 1rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1002,24 +1006,12 @@ input[type="checkbox"]:checked:focus {
   margin-top: 1rem;
 }
 
-.mt-72 {
-  margin-top: 18rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
 
 .mt-96 {
   margin-top: 24rem;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .line-clamp-1 {
@@ -1067,6 +1059,10 @@ input[type="checkbox"]:checked:focus {
   height: 2.5rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -1089,10 +1085,6 @@ input[type="checkbox"]:checked:focus {
 
 .h-56 {
   height: 14rem;
-}
-
-.h-6 {
-  height: 1.5rem;
 }
 
 .h-72 {
@@ -1134,10 +1126,6 @@ input[type="checkbox"]:checked:focus {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-12 {
-  height: 3rem;
 }
 
 .w-1\/2 {
@@ -1183,14 +1171,6 @@ input[type="checkbox"]:checked:focus {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .min-w-20 {
@@ -1324,10 +1304,6 @@ input[type="checkbox"]:checked:focus {
   gap: 0px;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1346,10 +1322,6 @@ input[type="checkbox"]:checked:focus {
 
 .gap-\[1px\] {
   gap: 1px;
-}
-
-.gap-\[2px\] {
-  gap: 2px;
 }
 
 .gap-\[3px\] {
@@ -1568,6 +1540,22 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(255 255 255 / 0.8);
 }
 
+.bg-white\/30 {
+  background-color: rgb(255 255 255 / 0.3);
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
+.bg-white\/10 {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
 .bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#FF1545\2c _\#fff\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
   background-image: radial-gradient(circle at center, #CF012B, #CF012B, #FF1545, #fff, #fff, #fff, #fff);
 }
@@ -1613,14 +1601,14 @@ input[type="checkbox"]:checked:focus {
   padding: 1.5rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 .px-2 {
@@ -1653,6 +1641,11 @@ input[type="checkbox"]:checked:focus {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1663,38 +1656,12 @@ input[type="checkbox"]:checked:focus {
   padding-bottom: 2rem;
 }
 
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
 
 .pb-24 {
   padding-bottom: 6rem;
-}
-
-.pl-20 {
-  padding-left: 5rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .pl-0 {
@@ -1705,8 +1672,12 @@ input[type="checkbox"]:checked:focus {
   padding-right: 0px;
 }
 
-.pr-6 {
-  padding-right: 1.5rem;
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
@@ -1896,6 +1867,18 @@ input[type="checkbox"]:checked:focus {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.backdrop-blur-lg {
+  --tw-backdrop-blur: blur(16px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2075,14 +2058,6 @@ input[type="checkbox"]:checked:focus {
   opacity: 1;
 }
 
-.dark\:block:is(.dark *) {
-  display: block;
-}
-
-.dark\:inline-block:is(.dark *) {
-  display: inline-block;
-}
-
 .dark\:flex:is(.dark *) {
   display: flex;
 }
@@ -2136,12 +2111,16 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(10 10 10 / 0);
 }
 
-.dark\:bg-neutral-950\/20:is(.dark *) {
-  background-color: rgb(10 10 10 / 0.2);
-}
-
 .dark\:bg-neutral-950\/40:is(.dark *) {
   background-color: rgb(10 10 10 / 0.4);
+}
+
+.dark\:bg-neutral-950\/30:is(.dark *) {
+  background-color: rgb(10 10 10 / 0.3);
+}
+
+.dark\:bg-neutral-950\/50:is(.dark *) {
+  background-color: rgb(10 10 10 / 0.5);
 }
 
 .dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
@@ -2229,10 +2208,6 @@ input[type="checkbox"]:checked:focus {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:p-8 {
-    padding: 2rem;
-  }
-
   .sm\:p-6 {
     padding: 1.5rem;
   }
@@ -2255,8 +2230,8 @@ input[type="checkbox"]:checked:focus {
     bottom: 0px;
   }
 
-  .md\:left-14 {
-    left: 3.5rem;
+  .md\:left-\[86px\] {
+    left: 86px;
   }
 
   .md\:right-0 {
@@ -2287,28 +2262,17 @@ input[type="checkbox"]:checked:focus {
     top: 1.5rem;
   }
 
-  .md\:left-20 {
-    left: 5rem;
-  }
-
-  .md\:left-24 {
-    left: 6rem;
-  }
-
-  .md\:left-\[82px\] {
-    left: 82px;
-  }
-
-  .md\:left-\[86px\] {
-    left: 86px;
-  }
-
   .md\:order-first {
     order: -9999;
   }
 
   .md\:order-last {
     order: 9999;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .md\:mx-32 {
@@ -2321,9 +2285,12 @@ input[type="checkbox"]:checked:focus {
     margin-right: auto;
   }
 
-  .md\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:mt-12 {
+    margin-top: 3rem;
   }
 
   .md\:mt-24 {
@@ -2334,20 +2301,20 @@ input[type="checkbox"]:checked:focus {
     margin-top: 18rem;
   }
 
-  .md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
-  .md\:mt-12 {
-    margin-top: 3rem;
-  }
-
   .md\:inline-block {
     display: inline-block;
   }
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-6 {
+    height: 1.5rem;
+  }
+
+  .md\:h-8 {
+    height: 2rem;
   }
 
   .md\:h-fit {
@@ -2363,16 +2330,12 @@ input[type="checkbox"]:checked:focus {
     height: 100vh;
   }
 
-  .md\:h-6 {
-    height: 1.5rem;
-  }
-
-  .md\:h-8 {
-    height: 2rem;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-6 {
+    width: 1.5rem;
   }
 
   .md\:w-\[440px\] {
@@ -2382,10 +2345,6 @@ input[type="checkbox"]:checked:focus {
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
-  }
-
-  .md\:w-6 {
-    width: 1.5rem;
   }
 
   .md\:-translate-y-1\/2 {
@@ -2435,20 +2394,26 @@ input[type="checkbox"]:checked:focus {
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .md\:p-6 {
-    padding: 1.5rem;
-  }
-
-  .md\:p-0 {
-    padding: 0px;
-  }
-
   .md\:p-3 {
     padding: 0.75rem;
   }
 
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .md\:px-32 {
@@ -2461,19 +2426,9 @@ input[type="checkbox"]:checked:focus {
     padding-right: 1rem;
   }
 
-  .md\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:pl-20 {
