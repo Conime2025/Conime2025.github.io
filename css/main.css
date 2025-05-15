@@ -1144,6 +1144,10 @@ input[type="checkbox"]:checked:focus {
   width: 1.5rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-\[250px\] {
   width: 250px;
 }
@@ -1175,10 +1179,6 @@ input[type="checkbox"]:checked:focus {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-8 {
-  width: 2rem;
 }
 
 .min-w-20 {
