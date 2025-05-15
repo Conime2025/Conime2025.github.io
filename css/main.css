@@ -962,6 +962,16 @@ input[type="checkbox"]:checked:focus {
   margin-bottom: 1.5rem;
 }
 
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1181,6 +1191,22 @@ input[type="checkbox"]:checked:focus {
   width: 100vw;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[230px\] {
+  width: 230px;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
 .min-w-20 {
   min-width: 5rem;
 }
@@ -1308,10 +1334,6 @@ input[type="checkbox"]:checked:focus {
   justify-content: space-between;
 }
 
-.justify-stretch {
-  justify-content: stretch;
-}
-
 .gap-0 {
   gap: 0px;
 }
@@ -1338,6 +1360,10 @@ input[type="checkbox"]:checked:focus {
 
 .gap-\[3px\] {
   gap: 3px;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-x-0 {
@@ -1497,6 +1523,10 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(251 184 197 / var(--tw-bg-opacity, 1));
 }
 
+.bg-conime-50\/70 {
+  background-color: rgb(255 229 236 / 0.7);
+}
+
 .bg-conime-50\/90 {
   background-color: rgb(255 229 236 / 0.9);
 }
@@ -1548,8 +1578,8 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(255 255 255 / 0.8);
 }
 
-.bg-conime-50\/70 {
-  background-color: rgb(255 229 236 / 0.7);
+.bg-conime-50\/80 {
+  background-color: rgb(255 229 236 / 0.8);
 }
 
 .bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#FF1545\2c _\#fff\2c _\#fff\2c _\#fff\2c _\#fff\)\] {
@@ -2117,6 +2147,10 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(10 10 10 / 0.5);
 }
 
+.dark\:bg-neutral-950\/60:is(.dark *) {
+  background-color: rgb(10 10 10 / 0.6);
+}
+
 .dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
   background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #000, #000, #000, #000);
 }
@@ -2378,6 +2412,10 @@ input[type="checkbox"]:checked:focus {
     gap: 1rem;
   }
 
+  .md\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -2394,6 +2432,10 @@ input[type="checkbox"]:checked:focus {
 
   .md\:p-6 {
     padding: 1.5rem;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
   }
 
   .md\:px-0 {
