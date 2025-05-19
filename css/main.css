@@ -2114,8 +2114,8 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(10 10 10 / 0.6);
 }
 
-.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#1b1b1b\2c _\#1b1b1b\2c _\#1b1b1b\2c _\#1b1b1b\)\]:is(.dark *) {
-  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #1b1b1b, #1b1b1b, #1b1b1b, #1b1b1b);
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #0A0A0A, #0A0A0A, #0A0A0A, #0A0A0A);
 }
 
 .dark\:text-neutral-400:is(.dark *) {
