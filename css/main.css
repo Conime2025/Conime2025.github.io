@@ -801,10 +801,6 @@ input[type="checkbox"]:checked:focus {
   bottom: -460px;
 }
 
-.-right-4 {
-  right: -1rem;
-}
-
 .-top-2 {
   top: -0.5rem;
 }
@@ -869,8 +865,16 @@ input[type="checkbox"]:checked:focus {
   right: 0.5rem;
 }
 
+.right-3 {
+  right: 0.75rem;
+}
+
 .right-4 {
   right: 1rem;
+}
+
+.right-6 {
+  right: 1.5rem;
 }
 
 .top-0 {
@@ -899,14 +903,6 @@ input[type="checkbox"]:checked:focus {
 
 .top-48 {
   top: 12rem;
-}
-
-.right-3 {
-  right: 0.75rem;
-}
-
-.right-6 {
-  right: 1.5rem;
 }
 
 .z-10 {
@@ -1164,6 +1160,10 @@ input[type="checkbox"]:checked:focus {
   width: 320px;
 }
 
+.w-\[360px\] {
+  width: 360px;
+}
+
 .w-\[416px\] {
   width: 416px;
 }
@@ -1187,14 +1187,6 @@ input[type="checkbox"]:checked:focus {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[340px\] {
-  width: 340px;
-}
-
-.w-\[360px\] {
-  width: 360px;
 }
 
 .min-w-20 {
@@ -1280,10 +1272,6 @@ input[type="checkbox"]:checked:focus {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
@@ -1352,10 +1340,6 @@ input[type="checkbox"]:checked:focus {
   gap: 1px;
 }
 
-.gap-\[3px\] {
-  gap: 3px;
-}
-
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -1413,10 +1397,6 @@ input[type="checkbox"]:checked:focus {
 
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
 }
 
 .overscroll-y-none {
@@ -2134,8 +2114,8 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(10 10 10 / 0.6);
 }
 
-.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
-  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #000, #000, #000, #000);
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#1b1b1b\2c _\#1b1b1b\2c _\#1b1b1b\2c _\#1b1b1b\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #1b1b1b, #1b1b1b, #1b1b1b, #1b1b1b);
 }
 
 .dark\:text-neutral-400:is(.dark *) {
@@ -2316,6 +2296,10 @@ input[type="checkbox"]:checked:focus {
     display: inline-block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -2337,10 +2321,6 @@ input[type="checkbox"]:checked:focus {
     height: 100%;
   }
 
-  .md\:h-screen {
-    height: 100vh;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -2351,11 +2331,6 @@ input[type="checkbox"]:checked:focus {
 
   .md\:w-\[440px\] {
     width: 440px;
-  }
-
-  .md\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
   }
 
   .md\:-translate-y-1\/2 {
@@ -2369,10 +2344,6 @@ input[type="checkbox"]:checked:focus {
 
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:flex-row {
@@ -2476,6 +2447,10 @@ input[type="checkbox"]:checked:focus {
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
   }
+
+  .md\:dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
+    background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #000, #000, #000, #000);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2542,9 +2517,19 @@ input[type="checkbox"]:checked:focus {
   .md\:\[\&\>\*\:nth-child\(4\)\]\:col-span-2>*:nth-child(4) {
     grid-column: span 2 / span 2;
   }
+}
 
+.\[\&\>\*\:nth-child\(5\)\]\:hidden>*:nth-child(5) {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .md\:\[\&\>\*\:nth-child\(5\)\]\:col-span-2>*:nth-child(5) {
     grid-column: span 2 / span 2;
+  }
+
+  .\[\&\>\*\:nth-child\(5\)\]\:md\:flex>*:nth-child(5) {
+    display: flex;
   }
 }
 
@@ -2552,12 +2537,34 @@ input[type="checkbox"]:checked:focus {
   grid-column: span 2 / span 2;
 }
 
+.\[\&\>\*\:nth-child\(6\)\]\:hidden>*:nth-child(6) {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .md\:\[\&\>\*\:nth-child\(6\)\]\:col-span-1>*:nth-child(6) {
     grid-column: span 1 / span 1;
   }
 
+  .\[\&\>\*\:nth-child\(6\)\]\:md\:flex>*:nth-child(6) {
+    display: flex;
+  }
+}
+
+.\[\&\>\*\:nth-child\(7\)\]\:hidden>*:nth-child(7) {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .md\:\[\&\>\*\:nth-child\(7\)\]\:col-span-2>*:nth-child(7) {
     grid-column: span 2 / span 2;
+  }
+
+  .\[\&\>\*\:nth-child\(7\)\]\:md\:flex>*:nth-child(7) {
+    display: flex;
+  }
+
+  .\[\&\>\*\:nth-child\(8\)\]\:md\:hidden>*:nth-child(8) {
+    display: none;
   }
 }
