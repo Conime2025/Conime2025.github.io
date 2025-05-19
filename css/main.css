@@ -905,6 +905,10 @@ input[type="checkbox"]:checked:focus {
   top: 12rem;
 }
 
+.right-8 {
+  right: 2rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1681,6 +1685,10 @@ input[type="checkbox"]:checked:focus {
   text-align: right;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .font-inter {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
@@ -2114,12 +2122,12 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(10 10 10 / 0.6);
 }
 
-.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\)\]:is(.dark *) {
-  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #0A0A0A, #0A0A0A, #0A0A0A, #0A0A0A);
-}
-
 .dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#171717\2c _\#171717\2c _\#171717\2c _\#171717\)\]:is(.dark *) {
   background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #171717, #171717, #171717, #171717);
+}
+
+.dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\)\]:is(.dark *) {
+  background-image: radial-gradient(circle at center, #CF012B, #CF012B, #5C0317, #0A0A0A, #0A0A0A, #0A0A0A, #0A0A0A);
 }
 
 .dark\:text-neutral-400:is(.dark *) {
@@ -2450,6 +2458,10 @@ input[type="checkbox"]:checked:focus {
   .md\:dark\:bg-black:is(.dark *) {
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+  }
+
+  .md\:dark\:bg-black\/90:is(.dark *) {
+    background-color: rgb(0 0 0 / 0.9);
   }
 
   .md\:dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
