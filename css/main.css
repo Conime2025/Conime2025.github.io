@@ -945,10 +945,6 @@ input[type="checkbox"]:checked:focus {
   margin: 1rem;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -964,6 +960,11 @@ input[type="checkbox"]:checked:focus {
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -972,16 +973,6 @@ input[type="checkbox"]:checked:focus {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-}
-
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mb-1 {
@@ -1034,10 +1025,6 @@ input[type="checkbox"]:checked:focus {
 
 .mt-96 {
   margin-top: 24rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .line-clamp-1 {
@@ -1113,6 +1100,10 @@ input[type="checkbox"]:checked:focus {
   height: 14rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .h-72 {
   height: 18rem;
 }
@@ -1152,14 +1143,6 @@ input[type="checkbox"]:checked:focus {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-60 {
-  height: 15rem;
-}
-
-.h-6 {
-  height: 1.5rem;
 }
 
 .w-1\/2 {
@@ -1306,10 +1289,6 @@ input[type="checkbox"]:checked:focus {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
-.grid-cols-12 {
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1431,6 +1410,10 @@ input[type="checkbox"]:checked:focus {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.overscroll-y-auto {
+  overscroll-behavior-y: auto;
 }
 
 .overscroll-y-none {
@@ -1893,16 +1876,6 @@ input[type="checkbox"]:checked:focus {
   outline-offset: 2px;
 }
 
-.brightness-50 {
-  --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-90 {
-  --tw-brightness: brightness(.9);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .brightness-75 {
   --tw-brightness: brightness(.75);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1976,21 +1949,9 @@ input[type="checkbox"]:checked:focus {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:scale-105:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-125:hover {
-  --tw-scale-x: 1.25;
-  --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2076,12 +2037,6 @@ input[type="checkbox"]:checked:focus {
 
 .group:hover .group-hover\:translate-x-2 {
   --tw-translate-x: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:scale-125 {
-  --tw-scale-x: 1.25;
-  --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2308,6 +2263,11 @@ input[type="checkbox"]:checked:focus {
     margin-right: 0px;
   }
 
+  .md\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
   .md\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
@@ -2316,11 +2276,6 @@ input[type="checkbox"]:checked:focus {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .md\:mx-2 {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
   }
 
   .md\:my-2 {
@@ -2356,6 +2311,10 @@ input[type="checkbox"]:checked:focus {
     display: none;
   }
 
+  .md\:h-40 {
+    height: 10rem;
+  }
+
   .md\:h-6 {
     height: 1.5rem;
   }
@@ -2371,14 +2330,6 @@ input[type="checkbox"]:checked:focus {
 
   .md\:h-full {
     height: 100%;
-  }
-
-  .md\:h-52 {
-    height: 13rem;
-  }
-
-  .md\:h-40 {
-    height: 10rem;
   }
 
   .md\:w-1\/2 {
@@ -2501,11 +2452,6 @@ input[type="checkbox"]:checked:focus {
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .md\:dark\:bg-black:is(.dark *) {
