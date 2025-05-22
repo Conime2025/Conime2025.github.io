@@ -1178,6 +1178,18 @@ input[type="checkbox"]:checked:focus {
   height: 100vh;
 }
 
+.min-h-96 {
+  min-height: 24rem;
+}
+
+.min-h-\[960px\] {
+  min-height: 960px;
+}
+
+.min-h-\[398px\] {
+  min-height: 398px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1732,6 +1744,10 @@ input[type="checkbox"]:checked:focus {
   padding-top: 1.5rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2240,6 +2256,11 @@ input[type="checkbox"]:checked:focus {
 }
 
 .dark\:hover\:text-conime-600:hover:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(207 1 43 / var(--tw-text-opacity, 1));
+}
+
+.hover\:dark\:text-conime-600:is(.dark *):hover {
   --tw-text-opacity: 1;
   color: rgb(207 1 43 / var(--tw-text-opacity, 1));
 }
