@@ -1227,6 +1227,10 @@ input[type="checkbox"]:checked:focus {
   width: 100vw;
 }
 
+.w-\[340px\] {
+  width: 340px;
+}
+
 .min-w-20 {
   min-width: 5rem;
 }
@@ -2631,18 +2635,6 @@ input[type="checkbox"]:checked:focus {
   }
 
   .md\:\[\&\>\*\:nth-child\(11\)\]\:col-span-2>*:nth-child(11) {
-    grid-column: span 2 / span 2;
-  }
-
-  .md\:\[\&\>\*\:nth-child\(12\)\]\:col-span-2>*:nth-child(12) {
-    grid-column: span 2 / span 2;
-  }
-
-  .md\:\[\&\>\*\:nth-child\(14\)\]\:col-span-2>*:nth-child(14) {
-    grid-column: span 2 / span 2;
-  }
-
-  .md\:\[\&\>\*\:nth-child\(16\)\]\:col-span-2>*:nth-child(16) {
     grid-column: span 2 / span 2;
   }
 
