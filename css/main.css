@@ -881,10 +881,6 @@ input[type="checkbox"]:checked:focus {
   top: 1rem;
 }
 
-.top-8 {
-  top: 2rem;
-}
-
 .top-6 {
   top: 1.5rem;
 }
@@ -1011,10 +1007,6 @@ input[type="checkbox"]:checked:focus {
 
 .mt-12 {
   margin-top: 3rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .mt-2 {
@@ -1268,6 +1260,11 @@ input[type="checkbox"]:checked:focus {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-0 {
+  --tw-rotate: 0deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .rotate-12 {
   --tw-rotate: 12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1283,13 +1280,7 @@ input[type="checkbox"]:checked:focus {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.-rotate-0 {
-  --tw-rotate: -0deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-0 {
-  --tw-rotate: 0deg;
+.transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1725,6 +1716,10 @@ input[type="checkbox"]:checked:focus {
   padding-right: 0px;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1880,6 +1875,10 @@ input[type="checkbox"]:checked:focus {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-10 {
+  opacity: 0.1;
 }
 
 .opacity-100 {
@@ -2243,9 +2242,8 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:dark\:bg-neutral-950:is(.dark *):hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(10 10 10 / var(--tw-bg-opacity, 1));
+.hover\:dark\:bg-neutral-950\/50:is(.dark *):hover {
+  background-color: rgb(10 10 10 / 0.5);
 }
 
 .dark\:hover\:text-conime-600:hover:is(.dark *) {
@@ -2286,16 +2284,8 @@ input[type="checkbox"]:checked:focus {
     position: absolute;
   }
 
-  .md\:-bottom-24 {
-    bottom: -6rem;
-  }
-
   .md\:-bottom-6 {
     bottom: -1.5rem;
-  }
-
-  .md\:-right-10 {
-    right: -2.5rem;
   }
 
   .md\:-right-6 {
@@ -2310,28 +2300,16 @@ input[type="checkbox"]:checked:focus {
     left: 50%;
   }
 
-  .md\:left-12 {
-    left: 3rem;
-  }
-
   .md\:left-\[86px\] {
     left: 86px;
-  }
-
-  .md\:right-0 {
-    right: 0px;
-  }
-
-  .md\:right-4 {
-    right: 1rem;
   }
 
   .md\:top-1\/2 {
     top: 50%;
   }
 
-  .md\:top-12 {
-    top: 3rem;
+  .md\:top-2 {
+    top: 0.5rem;
   }
 
   .md\:top-32 {
@@ -2340,22 +2318,6 @@ input[type="checkbox"]:checked:focus {
 
   .md\:top-8 {
     top: 2rem;
-  }
-
-  .md\:top-24 {
-    top: 6rem;
-  }
-
-  .md\:-bottom-12 {
-    bottom: -3rem;
-  }
-
-  .md\:-bottom-0 {
-    bottom: -0px;
-  }
-
-  .md\:top-2 {
-    top: 0.5rem;
   }
 
   .md\:order-first {
@@ -2471,11 +2433,6 @@ input[type="checkbox"]:checked:focus {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .md\:rotate-0 {
-    --tw-rotate: 0deg;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2571,6 +2528,11 @@ input[type="checkbox"]:checked:focus {
     padding-right: 1rem;
   }
 
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -2590,6 +2552,10 @@ input[type="checkbox"]:checked:focus {
 
   .md\:pr-6 {
     padding-right: 1.5rem;
+  }
+
+  .md\:pt-24 {
+    padding-top: 6rem;
   }
 
   .md\:text-start {
@@ -2619,9 +2585,8 @@ input[type="checkbox"]:checked:focus {
     background-color: rgb(0 0 0 / 0.9);
   }
 
-  .md\:dark\:bg-neutral-950:is(.dark *) {
-    --tw-bg-opacity: 1;
-    background-color: rgb(10 10 10 / var(--tw-bg-opacity, 1));
+  .md\:dark\:bg-neutral-950\/50:is(.dark *) {
+    background-color: rgb(10 10 10 / 0.5);
   }
 
   .md\:dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#000\2c _\#000\2c _\#000\2c _\#000\)\]:is(.dark *) {
