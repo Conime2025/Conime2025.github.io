@@ -941,6 +941,10 @@ input[type="checkbox"]:checked:focus {
   top: 1.5rem;
 }
 
+.top-auto {
+  top: auto;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -1058,6 +1062,11 @@ input[type="checkbox"]:checked:focus {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 
 .mb-1 {
@@ -1288,6 +1297,18 @@ input[type="checkbox"]:checked:focus {
   height: 100vh;
 }
 
+.h-\[70\%\] {
+  height: 70%;
+}
+
+.h-\[360px\] {
+  height: 360px;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
 .min-h-\[398px\] {
   min-height: 398px;
 }
@@ -1418,6 +1439,11 @@ input[type="checkbox"]:checked:focus {
 
 .-translate-y-full {
   --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-0 {
+  --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1686,6 +1712,14 @@ input[type="checkbox"]:checked:focus {
 .rounded-t-xl {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+}
+
+.rounded-tl-3xl {
+  border-top-left-radius: 1.5rem;
+}
+
+.rounded-tr-3xl {
+  border-top-right-radius: 1.5rem;
 }
 
 .border {
@@ -2368,10 +2402,6 @@ input[type="checkbox"]:checked:focus {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:z-40:hover {
-  z-index: 40;
-}
-
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -2469,46 +2499,20 @@ input[type="checkbox"]:checked:focus {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.group:hover .group-hover\:-top-1\/2 {
-  top: -50%;
-}
-
-.group:hover .group-hover\:top-1\/2 {
-  top: 50%;
-}
-
-.group:hover .group-hover\:z-40 {
-  z-index: 40;
+.group:hover .group-hover\:right-full {
+  right: 100%;
 }
 
 .group:hover .group-hover\:z-50 {
   z-index: 50;
 }
 
-.group:hover .group-hover\:-z-10 {
-  z-index: -10;
-}
-
 .group:hover .group-hover\:flex {
   display: flex;
 }
 
-.group:hover .group-hover\:hidden {
-  display: none;
-}
-
 .group:hover .group-hover\:translate-x-2 {
   --tw-translate-x: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:-translate-y-1\/2 {
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:translate-y-1\/2 {
-  --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2519,6 +2523,21 @@ input[type="checkbox"]:checked:focus {
 
 .group:hover .group-hover\:translate-y-full {
   --tw-translate-y: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-x-full {
+  --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:-translate-x-full {
+  --tw-translate-x: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:-translate-y-full {
+  --tw-translate-y: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2660,6 +2679,10 @@ input[type="checkbox"]:checked:focus {
 
 .dark\:font-normal:is(.dark *) {
   font-weight: 400;
+}
+
+.dark\:font-extralight:is(.dark *) {
+  font-weight: 200;
 }
 
 .dark\:text-white:is(.dark *) {
@@ -3151,6 +3174,11 @@ input[type="checkbox"]:checked:focus {
     padding-bottom: 1rem;
   }
 
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
   .md\:pr-6 {
     padding-right: 1.5rem;
   }
@@ -3252,6 +3280,10 @@ input[type="checkbox"]:checked:focus {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:gap-2 {
     gap: 0.5rem;
   }
@@ -3259,6 +3291,11 @@ input[type="checkbox"]:checked:focus {
   .lg\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .lg\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .lg\:shadow-zinc-950\/20 {
@@ -3298,6 +3335,10 @@ input[type="checkbox"]:checked:focus {
     grid-column: span 2 / span 2;
   }
 
+  .md\:\[\&\>\*\:nth-child\(1\)\]\:col-span-4>*:nth-child(1) {
+    grid-column: span 4 / span 4;
+  }
+
   .\[\&\>\*\:nth-child\(1\)\]\:md\:block>*:nth-child(1) {
     display: block;
   }
@@ -3313,9 +3354,39 @@ input[type="checkbox"]:checked:focus {
   .sm\:\[\&\>\*\:nth-child\(11\)\]\:col-span-2>*:nth-child(11) {
     grid-column: span 2 / span 2;
   }
+}
 
+@media (min-width: 768px) {
+  .md\:\[\&\>\*\:nth-child\(11\)\]\:col-span-4>*:nth-child(11) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:\[\&\>\*\:nth-child\(12\)\]\:col-span-4>*:nth-child(12) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:\[\&\>\*\:nth-child\(13\)\]\:col-span-4>*:nth-child(13) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:\[\&\>\*\:nth-child\(16\)\]\:col-span-4>*:nth-child(16) {
+    grid-column: span 4 / span 4;
+  }
+}
+
+@media (min-width: 640px) {
   .sm\:\[\&\>\*\:nth-child\(17\)\]\:col-span-2>*:nth-child(17) {
     grid-column: span 2 / span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:\[\&\>\*\:nth-child\(17\)\]\:col-span-4>*:nth-child(17) {
+    grid-column: span 4 / span 4;
+  }
+
+  .md\:\[\&\>\*\:nth-child\(18\)\]\:col-span-4>*:nth-child(18) {
+    grid-column: span 4 / span 4;
   }
 }
 
@@ -3332,6 +3403,10 @@ input[type="checkbox"]:checked:focus {
   .md\:\[\&\>\*\:nth-child\(2\)\]\:col-span-2>*:nth-child(2) {
     grid-column: span 2 / span 2;
   }
+
+  .md\:\[\&\>\*\:nth-child\(20\)\]\:col-span-4>*:nth-child(20) {
+    grid-column: span 4 / span 4;
+  }
 }
 
 @media (min-width: 640px) {
@@ -3341,6 +3416,10 @@ input[type="checkbox"]:checked:focus {
 }
 
 @media (min-width: 768px) {
+  .md\:\[\&\>\*\:nth-child\(21\)\]\:col-span-4>*:nth-child(21) {
+    grid-column: span 4 / span 4;
+  }
+
   .md\:\[\&\>\*\:nth-child\(3\)\]\:col-span-2>*:nth-child(3) {
     grid-column: span 2 / span 2;
   }
@@ -3411,8 +3490,16 @@ input[type="checkbox"]:checked:focus {
 }
 
 @media (min-width: 768px) {
+  .md\:\[\&\>\*\:nth-child\(7\)\]\:col-span-4>*:nth-child(7) {
+    grid-column: span 4 / span 4;
+  }
+
   .\[\&\>\*\:nth-child\(7\)\]\:md\:flex>*:nth-child(7) {
     display: flex;
+  }
+
+  .md\:\[\&\>\*\:nth-child\(8\)\]\:col-span-4>*:nth-child(8) {
+    grid-column: span 4 / span 4;
   }
 
   .\[\&\>\*\:nth-child\(8\)\]\:md\:hidden>*:nth-child(8) {
