@@ -2099,6 +2099,10 @@ input[type="checkbox"]:checked:focus {
   font-weight: 400;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -2130,6 +2134,11 @@ input[type="checkbox"]:checked:focus {
 .text-conime-600 {
   --tw-text-opacity: 1;
   color: rgb(207 1 43 / var(--tw-text-opacity, 1));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .text-rose-600 {
@@ -2179,11 +2188,6 @@ input[type="checkbox"]:checked:focus {
 .text-zinc-900 {
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity, 1));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 
 .opacity-0 {
@@ -2668,6 +2672,11 @@ input[type="checkbox"]:checked:focus {
 
 .dark\:text-zinc-800\/90:is(.dark *) {
   color: rgb(39 39 42 / 0.9);
+}
+
+.dark\:text-zinc-300:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 216 / var(--tw-text-opacity, 1));
 }
 
 .dark\:opacity-20:is(.dark *) {
