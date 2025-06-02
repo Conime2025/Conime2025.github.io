@@ -2181,6 +2181,11 @@ input[type="checkbox"]:checked:focus {
   color: rgb(24 24 27 / var(--tw-text-opacity, 1));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -2254,6 +2259,10 @@ input[type="checkbox"]:checked:focus {
 
 .brightness-75 {
   --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -2585,16 +2594,16 @@ input[type="checkbox"]:checked:focus {
   background-color: rgb(9 9 11 / 0.2);
 }
 
+.dark\:bg-zinc-950\/30:is(.dark *) {
+  background-color: rgb(9 9 11 / 0.3);
+}
+
 .dark\:bg-zinc-950\/50:is(.dark *) {
   background-color: rgb(9 9 11 / 0.5);
 }
 
 .dark\:bg-zinc-950\/60:is(.dark *) {
   background-color: rgb(9 9 11 / 0.6);
-}
-
-.dark\:bg-zinc-950\/30:is(.dark *) {
-  background-color: rgb(9 9 11 / 0.3);
 }
 
 .dark\:bg-\[radial-gradient\(circle_at_center\2c _\#CF012B\2c _\#CF012B\2c _\#5C0317\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\2c _\#0A0A0A\)\]:is(.dark *) {
@@ -3088,11 +3097,6 @@ input[type="checkbox"]:checked:focus {
     padding-right: 4rem;
   }
 
-  .md\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
   .md\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -3221,11 +3225,6 @@ input[type="checkbox"]:checked:focus {
 
   .lg\:gap-2 {
     gap: 0.5rem;
-  }
-
-  .lg\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
   }
 
   .lg\:px-24 {
