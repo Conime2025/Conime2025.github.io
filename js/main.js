@@ -8,7 +8,7 @@ toggleBtn.addEventListener("click", function () {
     if (isDark) {
         localStorage.setItem("darkmode", "true");
     } else {
-        localStorage.removeItem("darkmode");
+        localStorage.setItem("darkmode", "false");
     }
 });
 
