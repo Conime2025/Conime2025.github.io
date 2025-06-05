@@ -1377,6 +1377,10 @@ input[type="checkbox"]:checked:focus {
   width: 100vw;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .min-w-20 {
   min-width: 5rem;
 }
@@ -1421,6 +1425,16 @@ input[type="checkbox"]:checked:focus {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-0 {
+  --tw-translate-y: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .-rotate-6 {
   --tw-rotate: -6deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1448,6 +1462,16 @@ input[type="checkbox"]:checked:focus {
 
 .rotate-6 {
   --tw-rotate: 6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1578,6 +1602,10 @@ input[type="checkbox"]:checked:focus {
   gap: 1px;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -1604,6 +1632,12 @@ input[type="checkbox"]:checked:focus {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.space-x-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -2112,10 +2146,6 @@ input[type="checkbox"]:checked:focus {
   font-weight: 400;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -2272,6 +2302,11 @@ input[type="checkbox"]:checked:focus {
   outline-offset: 2px;
 }
 
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .blur-lg {
   --tw-blur: blur(16px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -2372,6 +2407,85 @@ input[type="checkbox"]:checked:focus {
 
 .distors-ctr .distor {
   display: inline-block;
+}
+
+.gooey-container {
+  width: 70px;
+  height: 70px;
+  filter: url(#gooey);
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: #ff4d5a;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -15px;
+}
+
+/* Animasi rotasi berbeda kecepatan */
+
+.dot1 {
+  animation: spin1 3s linear infinite;
+  background-color: #CF012B;
+}
+
+.dot2 {
+  animation: spin2 1.6s linear infinite;
+  background-color: #ef607b;
+}
+
+.dot3 {
+  animation: spin3 2s linear infinite;
+  background-color: #FF1545;
+}
+
+.dot4 {
+  animation: spin4 1.2s linear infinite;
+  background-color: #f58da1;
+}
+
+@keyframes spin1 {
+  0%   {
+    transform: rotate(0deg) translateX(25px) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(25px) rotate(-360deg);
+  }
+}
+
+@keyframes spin2 {
+  0%   {
+    transform: rotate(0deg) translateX(25px) rotate(-0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(25px) rotate(-360deg);
+  }
+}
+
+@keyframes spin3 {
+  0%   {
+    transform: rotate(0deg) translateX(25px) rotate(-0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(25px) rotate(-360deg);
+  }
+}
+
+@keyframes spin4 {
+  0%   {
+    transform: rotate(0deg) translateX(32px) rotate(-0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(32px) rotate(-360deg);
+  }
 }
 
 .\[writing-mode\:horizontal\] {
@@ -2527,6 +2641,21 @@ input[type="checkbox"]:checked:focus {
 
 .group:hover .group-hover\:translate-x-full {
   --tw-translate-x: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-x-4 {
+  --tw-translate-x: 1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-y-4 {
+  --tw-translate-y: 1rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-y-0 {
+  --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2992,6 +3121,18 @@ input[type="checkbox"]:checked:focus {
     margin-top: 18rem;
   }
 
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .md\:inline-block {
     display: inline-block;
   }
@@ -3236,6 +3377,10 @@ input[type="checkbox"]:checked:focus {
     top: 7rem;
   }
 
+  .lg\:top-1\/2 {
+    top: 50%;
+  }
+
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -3272,12 +3417,31 @@ input[type="checkbox"]:checked:focus {
     height: 5rem;
   }
 
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:w-\[340px\] {
     width: 340px;
   }
 
   .lg\:w-\[680px\] {
     width: 680px;
+  }
+
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .lg\:translate-y-0 {
+    --tw-translate-y: 0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .lg\:-rotate-6 {
@@ -3323,14 +3487,19 @@ input[type="checkbox"]:checked:focus {
     gap: 0.5rem;
   }
 
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:tracking-\[1em\] {
@@ -3356,6 +3525,24 @@ input[type="checkbox"]:checked:focus {
 
   .lg\:\[writing-mode\:vertical-rl\] {
     writing-mode: vertical-rl;
+  }
+
+  .group:hover .lg\:group-hover\:translate-y-4 {
+    --tw-translate-y: 1rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .group:hover .lg\:group-hover\:translate-x-0 {
+    --tw-translate-x: 0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .group:hover .lg\:group-hover\:opacity-0 {
+    opacity: 0;
+  }
+
+  .group:hover .lg\:group-hover\:opacity-100 {
+    opacity: 1;
   }
 }
 
