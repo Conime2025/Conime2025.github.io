@@ -801,10 +801,6 @@ input[type="checkbox"]:checked:focus {
   inset: 0px;
 }
 
-.-bottom-1 {
-  bottom: -0.25rem;
-}
-
 .-left-8 {
   left: -2rem;
 }
@@ -1195,10 +1191,6 @@ input[type="checkbox"]:checked:focus {
   height: 5rem;
 }
 
-.h-32 {
-  height: 8rem;
-}
-
 .h-40 {
   height: 10rem;
 }
@@ -1377,10 +1369,6 @@ input[type="checkbox"]:checked:focus {
   width: 100vw;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
 .min-w-20 {
   min-width: 5rem;
 }
@@ -1425,16 +1413,6 @@ input[type="checkbox"]:checked:focus {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-x-0 {
-  --tw-translate-x: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-0 {
-  --tw-translate-y: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .-rotate-6 {
   --tw-rotate: -6deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1462,11 +1440,6 @@ input[type="checkbox"]:checked:focus {
 
 .rotate-6 {
   --tw-rotate: 6deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-45 {
-  --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1602,10 +1575,6 @@ input[type="checkbox"]:checked:focus {
   gap: 1px;
 }
 
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -1632,12 +1601,6 @@ input[type="checkbox"]:checked:focus {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-12 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(3rem * var(--tw-space-x-reverse));
-  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .divide-y > :not([hidden]) ~ :not([hidden]) {
@@ -2241,10 +2204,6 @@ input[type="checkbox"]:checked:focus {
   opacity: 1;
 }
 
-.opacity-30 {
-  opacity: 0.3;
-}
-
 .opacity-70 {
   opacity: 0.7;
 }
@@ -2639,18 +2598,13 @@ input[type="checkbox"]:checked:focus {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:hover .group-hover\:translate-x-full {
-  --tw-translate-x: 100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .group:hover .group-hover\:translate-x-4 {
   --tw-translate-x: 1rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:hover .group-hover\:translate-y-4 {
-  --tw-translate-y: 1rem;
+.group:hover .group-hover\:translate-x-full {
+  --tw-translate-x: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2972,16 +2926,8 @@ input[type="checkbox"]:checked:focus {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:flex-col {
     flex-direction: column;
-  }
-
-  .sm\:items-center {
-    align-items: center;
   }
 
   .sm\:gap-3 {
@@ -3105,6 +3051,10 @@ input[type="checkbox"]:checked:focus {
     margin-bottom: 0.5rem;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -3119,18 +3069,6 @@ input[type="checkbox"]:checked:focus {
 
   .md\:mt-72 {
     margin-top: 18rem;
-  }
-
-  .md\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .md\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .md\:mb-12 {
-    margin-bottom: 3rem;
   }
 
   .md\:inline-block {
@@ -3373,12 +3311,12 @@ input[type="checkbox"]:checked:focus {
     right: 10%;
   }
 
-  .lg\:top-28 {
-    top: 7rem;
-  }
-
   .lg\:top-1\/2 {
     top: 50%;
+  }
+
+  .lg\:top-28 {
+    top: 7rem;
   }
 
   .lg\:col-span-1 {
@@ -3413,10 +3351,6 @@ input[type="checkbox"]:checked:focus {
     margin-top: 18rem;
   }
 
-  .lg\:h-20 {
-    height: 5rem;
-  }
-
   .lg\:h-screen {
     height: 100vh;
   }
@@ -3436,11 +3370,6 @@ input[type="checkbox"]:checked:focus {
 
   .lg\:-translate-y-1\/2 {
     --tw-translate-y: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:translate-y-0 {
-    --tw-translate-y: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -3510,14 +3439,6 @@ input[type="checkbox"]:checked:focus {
     letter-spacing: 3em;
   }
 
-  .lg\:opacity-0 {
-    opacity: 0;
-  }
-
-  .lg\:opacity-100 {
-    opacity: 1;
-  }
-
   .lg\:shadow-zinc-950\/20 {
     --tw-shadow-color: rgb(9 9 11 / 0.2);
     --tw-shadow: var(--tw-shadow-colored);
@@ -3527,22 +3448,14 @@ input[type="checkbox"]:checked:focus {
     writing-mode: vertical-rl;
   }
 
-  .group:hover .lg\:group-hover\:translate-y-4 {
-    --tw-translate-y: 1rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .group:hover .lg\:group-hover\:translate-x-0 {
     --tw-translate-x: 0px;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .group:hover .lg\:group-hover\:opacity-0 {
-    opacity: 0;
-  }
-
-  .group:hover .lg\:group-hover\:opacity-100 {
-    opacity: 1;
+  .group:hover .lg\:group-hover\:translate-y-4 {
+    --tw-translate-y: 1rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
 

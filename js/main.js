@@ -196,6 +196,66 @@ document.addEventListener('click', (e) => {
 
 
 
+window.addEventListener("DOMContentLoaded", function () {
+    const maxItems = 5;
+    const currentUrl = window.location.pathname;
+
+    // Hanya simpan jika halaman post
+    const isValidSinglePage = /^\/posts\/(anime|comic|movie|game)\/.+$/.test(currentUrl);
+    if (isValidSinglePage) {
+        const contentTitleElement = document.querySelector(".post-title");
+
+        // Ambil semua img.post-img lalu ambil yang pertama
+        const contentImageElements = document.querySelectorAll("img.post-img");
+        const contentImage = contentImageElements.length > 0
+            ? contentImageElements[0].getAttribute("src")
+            : "";
+
+        if (contentTitleElement) {
+            const contentTitle = contentTitleElement.innerText.trim();
+
+            if (contentTitle) {
+                const currentPage = {
+                    url: window.location.href,
+                    title: contentTitle,
+                    image: contentImage
+                };
+
+                let lastViewed = JSON.parse(localStorage.getItem("lastViewed")) || [];
+                lastViewed = lastViewed.filter(item => item.url !== currentPage.url);
+                lastViewed.unshift(currentPage);
+                lastViewed = lastViewed.slice(0, maxItems);
+                localStorage.setItem("lastViewed", JSON.stringify(lastViewed));
+            }
+        }
+    }
+
+    // Tampilkan di semua halaman
+    const listEl = document.getElementById("last-viewed-list");
+    if (listEl) {
+        const lastViewed = JSON.parse(localStorage.getItem("lastViewed")) || [];
+        listEl.innerHTML = "";
+        lastViewed.forEach(item => {
+            const li = document.createElement("li");
+            li.className = "relative flex flex-row justify-start items-center group gap-x-0 w-full h-32 lg:h-32 lg:max-h-20 bg-cover  overflow-hidden rounded-md bg-gradient-to-br from-white dark:from-zinc-900 from-0% via-zinc-50 dark:via-zinc-950 via-70% to-zinc-300 dark:to-zinc-950 to-100%";
+
+            const imageSrc = item.image ? item.image : "/images/default-thumbnail.jpg"; // fallback
+
+            li.innerHTML = `
+          <img src="${imageSrc}" alt="gambar-${item.title}" class="w-full  group-hover:opacity-0 opacity-30 lg:opacity-100 transition duration-500 ease-in-out h-32 lg:h-20 lg:max-h-20 object-cover"/>
+          <h2 class="w-full h-full flex justify-center items-center inset-0 opacity-100 lg:opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out  absolute px-4 text-2xl">
+            <a href="${item.url}" class="hover:underline break-words line-clamp-2 h-fit text-xl font-light dark:font-extralight">
+              ${item.title}
+            </a>
+          </h2>
+        `;
+            listEl.appendChild(li);
+        });
+    }
+});
+
+
+
 
 
 function copyShareLink() {
@@ -274,61 +334,3 @@ function copyShareLink() {
     });
   } 
 
-
-window.addEventListener("DOMContentLoaded", function () {
-    const maxItems = 5;
-    const currentUrl = window.location.pathname;
-
-    // Hanya simpan jika halaman post
-    const isValidSinglePage = /^\/posts\/(anime|comic|movie|game)\/.+$/.test(currentUrl);
-    if (isValidSinglePage) {
-        const contentTitleElement = document.querySelector(".post-title");
-
-        // Ambil semua img.post-img lalu ambil yang pertama
-        const contentImageElements = document.querySelectorAll("img.post-img");
-        const contentImage = contentImageElements.length > 0
-            ? contentImageElements[0].getAttribute("src")
-            : "";
-
-        if (contentTitleElement) {
-            const contentTitle = contentTitleElement.innerText.trim();
-
-            if (contentTitle) {
-                const currentPage = {
-                    url: window.location.href,
-                    title: contentTitle,
-                    image: contentImage
-                };
-
-                let lastViewed = JSON.parse(localStorage.getItem("lastViewed")) || [];
-                lastViewed = lastViewed.filter(item => item.url !== currentPage.url);
-                lastViewed.unshift(currentPage);
-                lastViewed = lastViewed.slice(0, maxItems);
-                localStorage.setItem("lastViewed", JSON.stringify(lastViewed));
-            }
-        }
-    }
-
-    // Tampilkan di semua halaman
-    const listEl = document.getElementById("last-viewed-list");
-    if (listEl) {
-        const lastViewed = JSON.parse(localStorage.getItem("lastViewed")) || [];
-        listEl.innerHTML = "";
-        lastViewed.forEach(item => {
-            const li = document.createElement("li");
-            li.className = "relative flex flex-row justify-start items-center group gap-x-0 w-full h-32 lg:h-20 bg-cover  overflow-hidden rounded-md bg-gradient-to-br from-white dark:from-zinc-900 from-0% via-zinc-50 dark:via-zinc-950 via-70% to-zinc-300 dark:to-zinc-950 to-100%";
-
-            const imageSrc = item.image ? item.image : "/images/default-thumbnail.jpg"; // fallback
-
-            li.innerHTML = `
-          <img src="${imageSrc}" alt="gambar-${item.title}" class="w-full group-hover:opacity-0 opacity-30 lg:opacity-100 transition duration-500 ease-in-out h-full object-cover"/>
-          <h2 class="w-full h-full flex justify-center items-center inset-0 opacity-100 lg:opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out  absolute px-4 text-2xl">
-            <a href="${item.url}" class="hover:underline break-words line-clamp-2 h-fit text-xl font-light dark:font-extralight">
-              ${item.title}
-            </a>
-          </h2>
-        `;
-            listEl.appendChild(li);
-        });
-    }
-});
