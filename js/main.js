@@ -143,21 +143,28 @@ function copyShareLink() {
 }
 
 // ====== LOADING SCREEN ======
-const MIN_LOADING_TIME = 3000;
+const MIN_LOADING_TIME = 9000;
 const loading = $('#loading-screen1');
 const header = $('header');
-const footer = $('footer');
-const menuBawah = $('#menu-bawah');
+const footer = $('footer'); 
 const menuKiri = $('#menu-kiri');
 const main = $('main');
 
 const showMainContent = () => {
-  loading?.classList.add('hidden');
+ if (loading) {
+  loading.classList.remove('opacity-100');
+  loading.classList.add('opacity-0');
+
+  // Setelah transisi selesai (1 detik), baru hidden agar tidak mengganggu klik
+  setTimeout(() => {
+    loading.classList.add('hidden');
+  }, 1000); // durasi fade-out
+}
+
   header?.classList.remove('hidden'); header?.classList.add('flex');
-  footer?.classList.remove('hidden'); footer?.classList.add('flex');
-  menuBawah?.classList.remove('hidden'); menuBawah?.classList.add('flex');
+  footer?.classList.remove('hidden'); footer?.classList.add('flex'); 
   main?.classList.remove('hidden');
-  menuKiri?.classList.remove('sm:hidden'); menuKiri?.classList.add('sm:flex');
+  menuKiri?.classList.remove('hidden'); menuKiri?.classList.add('flex');
 };
 
 const alreadyShown = sessionStorage.getItem('loadingShown');
