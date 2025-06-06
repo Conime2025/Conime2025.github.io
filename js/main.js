@@ -181,3 +181,65 @@ if (alreadyShown === 'true') {
     }, waitTime);
   });
 }
+
+// ====== SUBSCRIBE FORM ======
+  document.addEventListener("DOMContentLoaded", () => {
+  const input = document.getElementById("inputSubs");
+  const btn = document.getElementById("letSubs");
+  const errorMsg = document.getElementById("errorMsg");
+
+  // Awal: tombol dimatikan
+  btn.setAttribute("disabled", true);
+  setDisabledStyle(true);
+
+  // Saat input diketik
+  input.addEventListener("input", () => {
+    const email = input.value.trim();
+    const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+    errorMsg.classList.add("hidden"); // sembunyikan error saat ketik
+    input.classList.remove("border", "border-red-500");
+
+    if (isValid) {
+      btn.setAttribute("disabled", true);//sementara tombol tidak bisa diklik (untuk sementara, nanti akan diaktifkan jika tersedia)
+      setDisabledStyle(true);
+    } else {
+      btn.setAttribute("disabled", true);
+      setDisabledStyle(true);
+    }
+  });
+
+  // Saat tombol diklik
+  btn.addEventListener("click", () => {
+    const email = input.value.trim();
+    const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+    if (!isValid) {
+      // kemungkinan terjadi jika user memanipulasi HTML tombol agar bisa diklik
+      errorMsg.classList.remove("hidden");
+      input.classList.add("border", "border-red-500");
+      return;
+    }
+
+    // sukses
+    alert("Successfully subscribed with email: " + email);
+    input.value = "";
+    errorMsg.classList.add("hidden");
+    input.classList.remove("border", "border-red-500");
+
+    // reset tombol
+    btn.setAttribute("disabled", true);
+    setDisabledStyle(true);
+  });
+
+  // Fungsi bantu ganti style tombol
+  function setDisabledStyle(disabled) {
+    if (disabled) {
+      btn.classList.add("bg-zinc-600", "dark:bg-zinc-800", "cursor-not-allowed");
+      btn.classList.remove("bg-conime-600", "hover:bg-conime-700", "dark:hover:bg-conime-500");
+    } else {
+      btn.classList.remove("bg-zinc-600", "dark:bg-zinc-800", "cursor-not-allowed");
+      btn.classList.add("bg-conime-600", "hover:bg-conime-700", "dark:hover:bg-conime-500");
+    }
+  }
+});
