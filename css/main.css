@@ -1276,6 +1276,10 @@ input[type="checkbox"]:checked:focus {
   height: 100vh;
 }
 
+.max-h-\[500px\] {
+  max-height: 500px;
+}
+
 .min-h-\[398px\] {
   min-height: 398px;
 }

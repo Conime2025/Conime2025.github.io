@@ -237,17 +237,17 @@ window.addEventListener("DOMContentLoaded", function () {
         listEl.innerHTML = "";
         lastViewed.forEach(item => {
             const li = document.createElement("li");
-            li.className = "relative flex flex-1  justify-start items-center group gap-x-0 w-full h-full bg-cover  overflow-hidden rounded-md bg-gradient-to-br from-white dark:from-zinc-900 from-0% via-zinc-50 dark:via-zinc-950 via-70% to-zinc-300 dark:to-zinc-950 to-100%";
+            li.className = "relative flex flex-row justify-start items-center group gap-x-0 w-full h-32 lg:h-20 bg-cover  overflow-hidden rounded-md bg-gradient-to-br from-white dark:from-zinc-900 from-0% via-zinc-50 dark:via-zinc-950 via-70% to-zinc-300 dark:to-zinc-950 to-100%";
 
             const imageSrc = item.image ? item.image : "/images/default-thumbnail.jpg"; // fallback
 
             li.innerHTML = `
-          <img src="${imageSrc}" alt="gambar-${item.title}" class="w-full h-full  group-hover:opacity-0 opacity-30 lg:opacity-100 transition duration-500 ease-in-out object-cover"/>
-          <div class="absolute inset-0 w-full h-full flex justify-center items-center opacity-100 lg:opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out px-4 text-2xl">
-           <h2> <a href="${item.url}" class="hover:underline break-words line-clamp-2  text-xl font-light dark:font-extralight">
+          <img src="${imageSrc}" alt="gambar-${item.title}" class="w-auto h-32 lg:h-20 group-hover:opacity-0 opacity-30 lg:opacity-100 transition duration-500 ease-in-out object-cover"/>
+          <h2 class="w-full h-full flex justify-center items-center inset-0 opacity-100 lg:opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out  absolute px-4 text-2xl">
+            <a href="${item.url}" class="hover:underline break-words line-clamp-2 h-fit text-xl font-light dark:font-extralight">
               ${item.title}
-            </a></h2>
-          </div>
+            </a>
+          </h2>
         `;
             listEl.appendChild(li);
         });
